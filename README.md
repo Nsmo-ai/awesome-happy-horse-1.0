@@ -53,7 +53,7 @@ The safest public timeline is:
 
 ## Latest 24h / Current Watchlist
 
-These are the public surfaces most worth checking right now:
+These are the public surfaces most worth checking right now. For the full rolling version, use [Current Watchlist](./docs/current-watchlist.md).
 
 - [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
   Watch for updated benchmark framing and new example generations.
@@ -76,6 +76,7 @@ These are the public surfaces most worth checking right now:
 | Claim Tracker | [Claims Ledger](./docs/claims-ledger.md) | Claim status, confidence, and source chain |
 | Storyline | [Timeline](./docs/timeline.md) | How Happy Horse became a visible topic |
 | Benchmark Snapshot | [Benchmarks](./docs/benchmarks.md) | Dated Elo, rank, and sample snapshots |
+| Current Watchlist | [Current Watchlist](./docs/current-watchlist.md) | Rolling list of surfaces worth checking next |
 | Signal Map | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | Relationship map across benchmark, social discussion, and site claims |
 | Site Safety | [Official Links and Fakes](./docs/official-links-and-fakes.md) | Reader-facing link guidance and site-claim caution |
 | Comparison Read | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | Reading the main head-to-head comparison |
