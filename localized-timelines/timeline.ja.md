@@ -5,16 +5,21 @@
 ## 主要な流れ
 
 1. `2026-04-08`
-   - 公開リポジトリ [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) が GitHub に登場。
-   - 最初の公開面はコード公開ではなく、マーケティング寄りの README だった。
+   - Artificial Analysis が HappyHorse-1.0 を高可視な benchmark topic に押し上げた。
 
 2. `2026-04-08` から `2026-04-09`
-   - コミュニティ側のリポジトリがすぐに増え、prompt、benchmark、rumor、source tracking など複数の文脈へ広がった。
+   - X 上の高リーチ投稿が benchmark 物語と比較フレームを拡散した。
+   - Reddit では skepticism、open weights 期待、信頼性の議論が増えた。
 
 3. `2026-04-13`
-   - 公開 benchmark ページでは HappyHorse-1.0 が複数カテゴリで非常に強い位置にいる。
-   - 一方で、公式公開 GitHub リポジトリには重みや推論コードはまだ見えない。
+   - 公開 benchmark ページでは HappyHorse-1.0 が複数カテゴリで非常に強い位置にある。
+   - 一方で、公開 release clarity は依然として議論の勢いに追いついていない。
 
-## まとめ
+## 現在の読み方
 
-Happy Horse の公開話題は、最初に benchmark の可視性が高まり、その後にコミュニティ情報が急速に拡張した、という順序で理解するのが最も安全です。
+最も安全な読み方は次の順序です。
+
+- まず benchmark の可視性を見る
+- 次に X / Reddit がその話をどう増幅しているかを見る
+- その後で、どの主張が結論に値するかを判断する
+

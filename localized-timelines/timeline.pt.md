@@ -5,16 +5,21 @@
 ## Marcos principais
 
 1. `2026-04-08`
-   - O repositório público [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) aparece no GitHub.
-   - O README público inicial funciona como página de produto, e não como release técnico.
+   - Artificial Analysis transforma HappyHorse-1.0 em um tema visível de benchmark.
 
 2. `2026-04-08` a `2026-04-09`
-   - Repositórios comunitários ampliam o tema para prompts, benchmarks, rumor tracking e source mapping.
+   - O X amplia a narrativa de benchmark e os enquadramentos de comparação.
+   - O Reddit adiciona ceticismo, expectativa por open weights e perguntas de confiança.
 
 3. `2026-04-13`
-   - As páginas públicas de benchmark mostram HappyHorse-1.0 em posições muito fortes em várias categorias.
-   - O repositório oficial público ainda não mostra pesos nem código de inferência.
+   - As páginas públicas de benchmark continuam mostrando HappyHorse-1.0 muito forte em várias categorias.
+   - A clareza pública do release continua atrás da intensidade da discussão.
 
 ## Leitura segura
 
-A leitura mais segura é: primeiro cresceu a visibilidade por benchmark, depois veio a amplificação comunitária.
+A leitura mais segura é:
+
+- primeiro a visibilidade benchmark,
+- depois como X e Reddit ampliam ou distorcem a narrativa,
+- e só então decidir quais claims merecem status de conclusão.
+
