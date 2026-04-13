@@ -1,5 +1,7 @@
 # Awesome Happy Horse
 
+English | [简体中文](README.zh-CN.md)
+
 [![Last checked](https://img.shields.io/badge/last_checked-2026--04--13-0f172a)](./docs/methodology.md)
 [![Claims tracked](https://img.shields.io/badge/claims_tracked-15-2563eb)](./docs/claims-ledger.md)
 [![Benchmark snapshots](https://img.shields.io/badge/benchmark_snapshots-4-7c3aed)](./docs/benchmarks.md)
@@ -8,41 +10,42 @@
 
 The most trustworthy Happy Horse resource hub: verified facts, benchmark snapshots, prompt cases, comparisons, timeline, and official-source tracking.
 
-![Happy Horse benchmark snapshot](./assets/benchmark-snapshot.svg)
+![Happy Horse benchmark snapshot](./assets/benchmark-snapshot.png)
 
 ## What this repository is
 
-This repository is a public intelligence and resource hub for [Happy Horse AI](https://tryhappyhorse.com/). It is designed for people who want one place to answer four practical questions:
+This repository is a public intelligence and resource hub for [Happy Horse AI](https://tryhappyhorse.com/). It is built for people who need one place to answer five practical questions:
 
 - What is [Happy Horse](https://tryhappyhorse.com/) actually being presented as right now?
-- Which public claims about [Happy Horse 1.0](https://tryhappyhorse.com/) are verified, likely, rumored, or already outdated?
+- How did [Happy Horse 1.0](https://tryhappyhorse.com/) become such a visible topic so quickly?
+- Which public claims are verified, likely, rumored, or already outdated?
 - What do the current benchmark snapshots say, and what do they *not* say?
-- Which prompt patterns and failure modes are worth paying attention to if you are evaluating the model seriously?
+- Which prompt cases and failure cases are worth using if you want to evaluate the model seriously?
 
 This repository is not affiliated with the Happy Horse team. It exists because the public information environment around [Happy Horse AI](https://tryhappyhorse.com/) is split across product pages, benchmark pages, GitHub SEO repos, and reposted social threads.
 
-## Why this topic matters
+## Why this model matters
 
-[Happy Horse 1.0](https://tryhappyhorse.com/) is interesting for two reasons at the same time:
+[Happy Horse 1.0](https://tryhappyhorse.com/) is notable because two different attention loops converged at the same time:
 
-- On the product side, the current official public GitHub presence frames it as a cinematic video-generation product for creators and SaaS founders.
-- On the benchmark side, public leaderboard snapshots currently place it at or near the top of several important AI video categories.
+- the `product loop`: a polished cinematic product narrative aimed at creators and SaaS founders
+- the `benchmark loop`: unusually strong visibility in public leaderboard discussions
 
-That combination creates a lot of noise fast. People start asking whether [Happy Horse](https://tryhappyhorse.com/) is already open source, whether it leads every category, which site is the right one, and whether community comparison clips are correctly labeled. This repository is built to reduce that confusion.
+That combination creates fast-moving demand for answers. People want to know whether [Happy Horse](https://tryhappyhorse.com/) is already open source, whether it is better than Seedance, whether it supports audio, whether it can be run locally, and which site is actually worth clicking.
 
 ## The story so far
 
-The current public timeline is short but important:
+The short public timeline is already enough to matter:
 
 1. On `2026-04-08`, the public repository [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) appeared on GitHub.
-2. Its public README launched as a marketing-oriented page, not as a code or model release.
-3. Within the next 24 hours, community repos started expanding the topic into prompt hubs, rumor maps, benchmark summaries, and source trackers.
-4. As checked on `2026-04-13`, Artificial Analysis public leaderboard pages show `HappyHorse-1.0` leading `Text to Video (No Audio)`, `Image to Video (No Audio)`, and `Text to Video (With Audio)`, while `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` with `HappyHorse-1.0` in second.
+2. Its public README launched as a marketing-oriented page, not as a code release or model release.
+3. Within the next 24 hours, community repos expanded the topic into prompt hubs, rumor maps, benchmark summaries, and signal trackers.
+4. As checked on `2026-04-13`, Artificial Analysis public pages show `HappyHorse-1.0` leading `Text to Video (No Audio)`, `Image to Video (No Audio)`, and `Text to Video (With Audio)`, while `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` with `HappyHorse-1.0` in second.
 5. The official public GitHub repo still does not expose public weights or inference code.
 
-The short version is: [Happy Horse AI](https://tryhappyhorse.com/) already has enough public benchmark gravity to matter, but the public release surface is still much thinner than the surrounding narrative.
+The short version is: [Happy Horse AI](https://tryhappyhorse.com/) already has enough benchmark gravity to matter, but the public release surface is still thinner than the surrounding narrative.
 
-## Current Snapshot
+## Latest Status
 
 - **[Verified]** A public repository named [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) exists and was created on `2026-04-08`.
 - **[Verified]** The current official public repo description frames [Happy Horse AI](https://tryhappyhorse.com/) as a product that turns text or images into `1080p cinematic video` with `advanced motion synthesis`, and says it is `free online` with `no sign up required`.
@@ -67,6 +70,17 @@ Use the repository like a decision tool, not like a blog post.
 | Prompt Cases | [Prompt Library](./docs/prompts/prompt-library.md) | Reusable prompt cases with clear test goals | Hands-on evaluation |
 | Risk Log | [Failure Cases](./docs/prompts/failure-cases.md) | Common ways readers and evaluators get misled | Risk reduction |
 | Evidence Rules | [Methodology](./docs/methodology.md) | Status labels, evidence rules, and update logic | Trust and auditability |
+
+## Source Map
+
+If you want to know where the narrative comes from, these are the main evidence layers:
+
+| Layer | What it contributes | Where to start |
+| --- | --- | --- |
+| Official public repo | Product positioning, current public release surface, current site references | [Verified Facts](./docs/verified-facts.md) |
+| Live benchmark pages | Time-sensitive Elo, ranks, sample counts, with-audio vs no-audio distinctions | [Benchmarks](./docs/benchmarks.md) |
+| Community intelligence repos | Narrative spread, comparison framing, prompt circulation, rumor pressure | [Claims Ledger](./docs/claims-ledger.md) |
+| Failure and caution context | Mislabeling risk, fake-link inflation, overclaiming risk | [Failure Cases](./docs/prompts/failure-cases.md) |
 
 ## How to use this repository
 
@@ -94,18 +108,7 @@ Then read [Failure Cases](./docs/prompts/failure-cases.md) before drawing strong
 
 This repository standardizes all surfaced user-facing Happy Horse website links to [Happy Horse](https://tryhappyhorse.com/). If you need context on other publicly discussed domains, use [Official Links and Fakes](./docs/official-links-and-fakes.md).
 
-## Why the README is structured this way
-
-This README is organized so a reader can move from `what happened` to `what is true` to `what to test` without switching tabs or guessing which page to trust first.
-
-The intended reading order is:
-
-1. story and current state
-2. document index
-3. benchmark and claim context
-4. prompt and failure-case utility
-
-## Top Questions
+## Search-Intent FAQ
 
 ### What is Happy Horse?
 
@@ -143,10 +146,6 @@ This repository standardizes all user-facing Happy Horse website links to [Happy
 
 As checked on `2026-04-13`, [Happy Horse 1.0](https://tryhappyhorse.com/) leads `Text to Video (No Audio)`, `Image to Video (No Audio)`, and `Text to Video (With Audio)` in the Artificial Analysis public pages reviewed here, while `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` with HappyHorse-1.0 in second. See [Benchmarks](./docs/benchmarks.md).
 
-### Why does Seedance come up so often?
-
-Because `Happy Horse vs Seedance` is the dominant public comparison frame in the current GitHub and benchmark discussion. See [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md).
-
 ### Is Happy Horse better than Seedance?
 
 The safest answer is more precise than a yes/no. As checked on `2026-04-13`, [Happy Horse 1.0](https://tryhappyhorse.com/) leads several public leaderboard categories, but Seedance still leads `Image to Video (With Audio)` in the reviewed snapshot. See [Benchmarks](./docs/benchmarks.md) and [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md).
@@ -159,10 +158,6 @@ The most important public comparison anchors right now are Seedance, Kling, and 
 
 This repository tracks only what can be responsibly stated from reviewed public sources. If attribution is not supported clearly enough, it should not be repeated as fact. See [Claims Ledger](./docs/claims-ledger.md) and [Methodology](./docs/methodology.md).
 
-### Where should I start if I want practical value?
-
-Use [Prompt Library](./docs/prompts/prompt-library.md) for reusable test cases and [Failure Cases](./docs/prompts/failure-cases.md) for common traps.
-
 ### What are the best prompt angles to test first?
 
 The current prompt set is designed around practical evaluation dimensions: cinematic environment control, multi-beat continuity, product visualization, direct-to-camera speech, and identity retention in image-to-video. Start with [Prompt Library](./docs/prompts/prompt-library.md).
@@ -171,9 +166,22 @@ The current prompt set is designed around practical evaluation dimensions: cinem
 
 Not automatically. Public comparison clips can be mislabeled, decontextualized, or selectively chosen. Use [Failure Cases](./docs/prompts/failure-cases.md) before treating any single clip as proof.
 
+### Where should I start if I want practical value?
+
+Use [Prompt Library](./docs/prompts/prompt-library.md) for reusable test cases and [Failure Cases](./docs/prompts/failure-cases.md) for common traps.
+
 ### Why should I trust this repo?
 
 Because the methodology is explicit, the claims are dated, the benchmark values are snapshot-scoped, and the repository keeps failure modes in scope instead of hiding them. See [Methodology](./docs/methodology.md).
+
+## Multilingual Consideration
+
+This repository now includes:
+
+- the primary English README
+- a Simplified Chinese README for Chinese-language readers
+
+The current multilingual priority is practical usability rather than wide translation coverage. If this repository keeps growing, the next reasonable additions would be Japanese and Korean, because those languages are common in AI video tool communities and model-comparison audiences.
 
 ## Notes for editors
 
