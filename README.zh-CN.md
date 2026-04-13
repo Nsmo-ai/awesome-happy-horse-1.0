@@ -42,20 +42,16 @@
 
 ## Latest 24h / Current Watchlist
 
-当前最值得关注的信号入口：
+当前最值得关注的入口：
 
-- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
-  关注 benchmark 话题是否继续升级、是否增加新样例。
-- [HappyHorseATH on X](https://x.com/HappyHorseATH)
-  关注 release、access、定位变化。
-- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
-  关注 attribution 或 launch 级别的新确认。
-- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
-  关注更大范围用户对 benchmark 的理解和情绪。
-- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
-  关注本地运行和 open-weights 期待。
-- [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
-  关注对比视频是否存在误标或误导。
+- Artificial Analysis on X
+- HappyHorseATH on X
+- Alibaba Group on X
+- r/generativeAI
+- r/LocalLLaMA
+- Brent Lynch on X
+
+完整优先级、更新时间和触发条件见 [Current Watchlist](./docs/current-watchlist.md)。
 
 ## 快速导航
 

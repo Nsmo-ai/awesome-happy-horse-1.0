@@ -24,12 +24,14 @@
 
 ## Latest 24h / Current Watchlist
 
-- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
-- [HappyHorseATH on X](https://x.com/HappyHorseATH)
-- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
-- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
-- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
-- [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
+- Artificial Analysis on X
+- HappyHorseATH on X
+- Alibaba Group on X
+- r/generativeAI
+- r/LocalLLaMA
+- Brent Lynch on X
+
+우선순위, 업데이트 시점, 추적 이유는 [Current Watchlist](./docs/current-watchlist.md) 를 참고하세요.
 
 ## 빠른 탐색 경로
 

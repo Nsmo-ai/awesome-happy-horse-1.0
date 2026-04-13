@@ -53,20 +53,16 @@ The safest public timeline is:
 
 ## Latest 24h / Current Watchlist
 
-These are the public surfaces most worth checking right now. For the full rolling version, use [Current Watchlist](./docs/current-watchlist.md).
+Top current watch surfaces:
 
-- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
-  Watch for updated benchmark framing and new example generations.
-- [HappyHorseATH on X](https://x.com/HappyHorseATH)
-  Watch for release, access, or positioning changes.
-- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
-  Watch for attribution or launch-related confirmation.
-- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
-  Watch for broader sentiment and benchmark interpretation.
-- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
-  Watch for local-run expectations and open-weights speculation.
-- [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
-  Watch for comparison-label skepticism and clip-validation issues.
+- Artificial Analysis on X
+- HappyHorseATH on X
+- Alibaba Group on X
+- r/generativeAI
+- r/LocalLLaMA
+- Brent Lynch on X
+
+For priorities, last-checked dates, and update triggers, use [Current Watchlist](./docs/current-watchlist.md).
 
 ## Quick Navigation
 

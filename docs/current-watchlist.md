@@ -14,68 +14,25 @@ Some information about Happy Horse is relatively stable for days or weeks. Other
 - mislabeled clip disputes
 - site-claim changes
 
-## Current Watchlist
+## Watchlist Table
 
-### 1. Artificial Analysis on X
+| Surface | Priority | What changed or could change | Why it matters | Last checked |
+| --- | --- | --- | --- | --- |
+| [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933) | `P1` | benchmark framing, new example generations, rank language | often the first public amplification point for the model | `2026-04-13` |
+| [HappyHorseATH on X](https://x.com/HappyHorseATH) | `P1` | release wording, access wording, product positioning | key public discussion account around the model | `2026-04-13` |
+| [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535) | `P1` | attribution cues, launch-adjacent phrasing | relevant to legitimacy and attribution interpretation | `2026-04-13` |
+| [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/) | `P2` | broader sentiment, benchmark interpretation, hype persistence | useful for understanding how the topic lands outside niche circles | `2026-04-13` |
+| [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/) | `P1` | open-weights expectations, local-run speculation, community confidence | strong signal surface for local execution expectations | `2026-04-13` |
+| [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243) | `P2` | mislabeled example challenges, clip provenance disputes | useful for trust and clip-validation checks | `2026-04-13` |
 
-- Link: [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
-- Why it matters:
-  - benchmark framing often starts here
-  - new public examples or re-ranking narratives often appear here first
-- What to watch:
-  - rank phrasing changes
-  - new comparison clips
-  - any shift in how HappyHorse-1.0 is described
+## Priority Guide
 
-### 2. HappyHorseATH on X
+- `P1`
+  - should be checked first when the repository is updated
+- `P2`
+  - useful secondary surfaces for interpretation and trust calibration
 
-- Link: [HappyHorseATH on X](https://x.com/HappyHorseATH)
-- Why it matters:
-  - this is one of the key public discussion accounts around the model
-- What to watch:
-  - release language
-  - API wording
-  - changes in positioning
-
-### 3. Alibaba Group on X
-
-- Link: [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
-- Why it matters:
-  - relevant to attribution and legitimacy discussion
-- What to watch:
-  - stronger or weaker attribution cues
-  - launch-adjacent public phrasing
-
-### 4. r/generativeAI discussion
-
-- Link: [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
-- Why it matters:
-  - good read on broader AI-community sentiment
-- What to watch:
-  - whether benchmark hype persists
-  - whether skepticism rises
-  - what non-specialist readers think the model means
-
-### 5. r/LocalLLaMA discussion
-
-- Link: [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
-- Why it matters:
-  - high-signal surface for local-run expectations and open-weights discussion
-- What to watch:
-  - local execution expectations
-  - open-weights rumor spread
-  - changes in community confidence
-
-### 6. Brent Lynch on X
-
-- Link: [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
-- Why it matters:
-  - useful for comparison-label skepticism and clip-validation issues
-- What to watch:
-  - mislabeled examples
-  - clip provenance disputes
-
-## High-Priority Changes That Should Trigger Repository Updates
+## Trigger Conditions
 
 If any of these happen, the repository should be updated quickly:
 
@@ -92,4 +49,3 @@ If any of these happen, the repository should be updated quickly:
 - Use [Claims Ledger](./claims-ledger.md) for claim status
 - Use [Official Links and Fakes](./official-links-and-fakes.md) for site-claim filtering
 - Use this page when you want to know what should be checked again soon
-
