@@ -26,25 +26,20 @@ This repository aims to be useful without pretending to know more than the publi
 
 ## Source Weighting
 
-1. **Official public repository and product links referenced by it**
-   - Highest weight for current public product claims.
+1. **Artificial Analysis leaderboard pages**
+   - Highest weight for current public benchmark claims.
 
-2. **Public GitHub API snapshots**
-   - Highest weight for repository metadata and structure.
+2. **X / Reddit primary-source discussion**
+   - Useful for tracing amplification, skepticism, and attribution narratives.
 
-3. **Community GitHub intelligence repos**
-   - Useful for mapping public narrative, but not treated as primary truth for product internals.
-
-4. **Benchmark claims cited by community repos**
-   - Useful for understanding public narrative momentum; lower weight unless independently re-checked.
+3. **Public product-facing surfaces**
+   - Useful for current positioning, language, and user-facing access cues.
 
 ## Update Rules
 
 - Every page shows a `Last checked` date.
 - Snapshot claims must include the date context.
-- User-facing Happy Horse website links in this repository are standardized to [tryhappyhorse.com](https://tryhappyhorse.com/).
-- Other Happy Horse domains may be discussed as text when needed for analysis, but are not surfaced as reader-facing destination links by default.
-- Links that cannot be tied back to the official public repo are never presented as official by default.
+- Other Happy Horse domains may be discussed as text when needed for analysis, but are not surfaced as trusted reader-facing destination links by default.
 - Failure cases remain in scope because they prevent false confidence.
 
 ## Correction Rules

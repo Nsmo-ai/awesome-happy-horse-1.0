@@ -11,7 +11,6 @@ This page tracks the main public claims around Happy Horse with explicit status 
 | There is verified public evidence that Happy Horse weights are downloadable right now. | `Rumor` | `medium` | [@laozhang2579 on X](https://x.com/laozhang2579/status/2041835578921251244), [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/) | `2026-04-13` | Publicly discussed, but not verified by the evidence chain used here. |
 | There is verified public evidence that Happy Horse can be run locally right now. | `Rumor` | `medium` | [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/) | `2026-04-13` | Strong user interest exists; verification does not. |
 | Public discussion currently points more strongly to future API availability than to confirmed open weights. | `Likely` | `medium` | [HappyHorseATH on X](https://x.com/HappyHorseATH), [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535), [Artificial Analysis Text to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/text-to-video) | `2026-04-13` | Best read as a current public direction, not a guarantee. |
-| This repository uses `tryhappyhorse.com` as its canonical surfaced Happy Horse website link. | `Verified` | `high` | [Methodology](./methodology.md), [Official Links and Fakes](./official-links-and-fakes.md) | `2026-04-13` | Editorial standard for reader-facing consistency. |
 
 ## Product and Positioning Claims
 

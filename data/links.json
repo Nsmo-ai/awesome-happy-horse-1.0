@@ -1,11 +1,11 @@
 [
   {
     "url": "https://tryhappyhorse.com/",
-    "label": "tryhappyhorse.com",
-    "kind": "canonical",
-    "status": "Verified",
+    "label": "Happy Horse",
+    "kind": "site",
+    "status": "Reference",
     "last_checked": "2026-04-13",
-    "reason": "Canonical surfaced Happy Horse product link used by this repository."
+    "reason": "Reader-facing Happy Horse link used in this repository."
   },
   {
     "url": "https://x.com/HappyHorseATH",

@@ -187,7 +187,7 @@ Use this page when a reader asks:
 | What is the current Elo? | Benchmark surface |
 | Is Happy Horse beating Seedance everywhere? | Benchmark surface + failure/caution layer |
 | What prompts should I try first? | Social discussion layer + prompt layer |
-| Which site should I click? | Site-claim surface, filtered through this repo's editorial rules |
+| Which site should I click? | Site-claim surface, filtered through this repo's current evidence chain |
 
 ## Safe reading rule
 

@@ -8,7 +8,7 @@ Trust comes from keeping misleading or weak evidence visible.
 
 - **Problem:** Community repos may surface domains or try-it pages that feel official but are not directly supported by the current public repo state reviewed here.
 - **Why it matters:** Readers may confuse a keyword-optimized landing page with a confirmed product entry point.
-- **Current handling:** This repository uses one canonical surfaced site link, [tryhappyhorse.com](https://tryhappyhorse.com/), and keeps other domains in caution context only.
+- **Current handling:** This repository keeps a single reader-facing Happy Horse link and treats other domains as caution-context only.
 - **Related page:** [Official Links and Fakes](../official-links-and-fakes.md)
 
 ## 2. Open-source overclaiming

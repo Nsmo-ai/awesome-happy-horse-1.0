@@ -180,7 +180,7 @@ Then read [Failure Cases](./docs/prompts/failure-cases.md) before drawing strong
 
 ### If you are just looking for the right site
 
-This repository standardizes all surfaced user-facing Happy Horse website links to [Happy Horse](https://tryhappyhorse.com/). If you need context on other publicly discussed domains, use [Official Links and Fakes](./docs/official-links-and-fakes.md).
+If you need a reader-facing entry point, use [Happy Horse](https://tryhappyhorse.com/). If you want context on other publicly discussed domains, use [Official Links and Fakes](./docs/official-links-and-fakes.md).
 
 ## Search-Intent FAQ
 
@@ -214,7 +214,7 @@ At the public positioning and benchmark level, yes: Happy Horse AI is currently 
 
 ### Is there an official website for Happy Horse?
 
-This repository standardizes all user-facing Happy Horse website links to Happy Horse. If you need context on other publicly discussed domains, see [Official Links and Fakes](./docs/official-links-and-fakes.md).
+The safest reader-facing entry point used in this repository is [Happy Horse](https://tryhappyhorse.com/). If you need context on other publicly discussed domains, see [Official Links and Fakes](./docs/official-links-and-fakes.md).
 
 ### What is the current benchmark picture?
 

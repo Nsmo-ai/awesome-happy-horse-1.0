@@ -1,22 +1,5 @@
 [
   {
-    "id": "repo_uses_tryhappyhorse",
-    "claim": "This repository uses tryhappyhorse.com as its canonical surfaced Happy Horse website link.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "editorial",
-    "sources": [
-      {
-        "label": "Methodology",
-        "url": "https://github.com/",
-        "type": "internal"
-      }
-    ],
-    "first_seen": "2026-04-13",
-    "last_checked": "2026-04-13",
-    "notes": "Reader-facing link normalization rule for this repository."
-  },
-  {
     "id": "weights_available_now",
     "claim": "There is verified public evidence that Happy Horse weights are downloadable right now.",
     "status": "Rumor",

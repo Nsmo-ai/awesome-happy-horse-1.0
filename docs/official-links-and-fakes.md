@@ -2,13 +2,13 @@
 
 Last checked: `2026-04-13`
 
-This page separates the canonical Happy Horse site link used by this repository from noisy public site claims.
+This page separates the Happy Horse site link used in this repository from noisy public site claims.
 
-## Canonical Happy Horse Site Link Used Here
+## Happy Horse Link Used Here
 
 | Link | Kind | Status | Why it is in this bucket |
 | --- | --- | --- | --- |
-| [https://tryhappyhorse.com/](https://tryhappyhorse.com/) | Canonical surfaced product link | `Verified` | This repository uses one unified Happy Horse site link for reader-facing consistency. |
+| [Happy Horse](https://tryhappyhorse.com/) | Site link used in this repository | `Reference` | Used as the main reader-facing Happy Horse link in this repository. |
 
 ## Public Discussion Surfaces
 
@@ -22,7 +22,7 @@ This page separates the canonical Happy Horse site link used by this repository 
 
 | Link or pattern | Status | Reason |
 | --- | --- | --- |
-| `happyhorses.io` presented as the canonical official destination | `Likely misleading` | It may appear in public discussion, but it is not the canonical surfaced link used by this repository. |
+| `happyhorses.io` presented as the canonical official destination | `Likely misleading` | It may appear in public discussion, but it is not the main Happy Horse link used here. |
 | `happyhorseone.com` presented as the official source of truth | `Likely misleading` | It may appear in public discussion, but it is not treated here as a trusted user-facing entry point. |
 | Any link claiming “official open-source weights available now” | `Misleading until verified` | The current public evidence chain does not verify downloadable weights. |
 
