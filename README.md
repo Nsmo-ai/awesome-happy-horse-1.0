@@ -81,6 +81,7 @@ Use the repository like a decision tool, not like a blog post.
 | Localized Timelines | [localized-timelines/](./localized-timelines/) | Short timeline summaries for selected languages | Multilingual orientation |
 | Benchmark Snapshot | [Benchmarks](./docs/benchmarks.md) | Dated leaderboard snapshots with Elo and sample counts | Performance tracking |
 | Site Safety | [Official Links and Fakes](./docs/official-links-and-fakes.md) | Canonical surfaced link plus caution around noisy domain claims | Navigation and safety |
+| Signal Map | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | Relationship map across repo, benchmark, community, and site-claim layers | Context synthesis |
 | Comparison Read | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | Current public reading of the most important head-to-head comparison | Competitive context |
 | Prompt Cases | [Prompt Library](./docs/prompts/prompt-library.md) | Reusable prompt cases with clear test goals | Hands-on evaluation |
 | Risk Log | [Failure Cases](./docs/prompts/failure-cases.md) | Common ways readers and evaluators get misled | Risk reduction |

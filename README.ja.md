@@ -1,36 +1,62 @@
 # Awesome Happy Horse
 
-[English](README.md) | [简体中文](README.zh-CN.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | 日本語 | [한국어](README.ko.md) | [Español](README.es.md) | [Português](README.pt.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md)
 
-[Happy Horse AI](https://tryhappyhorse.com/) に関する公開情報を、検証しやすく再利用しやすい形で整理したリソース兼インテリジェンスリポジトリです。
+[Happy Horse AI](https://tryhappyhorse.com/) に関する公開情報、公開シグナル、再利用しやすいリソースを整理したリポジトリです。目的は、単なる情報収集ではなく、以下を見分けやすくすることです。
 
-## このリポジトリで分かること
+- いま直接確認できる事実
+- 高確度だが未確定な話
+- まだ rumor の段階にある話
+- 話題にはなっているが、そのまま拡散すべきではない情報
 
-- 現時点で直接確認できる事実
-- `Verified / Likely / Rumor / Outdated` の分類付きクレーム
-- [Happy Horse 1.0](https://tryhappyhorse.com/) が急に注目された流れ
-- 現在の公開ベンチマークの読み方
-- まず試すべきプロンプト観点
-- 誤解しやすい失敗例や注意点
+## このリポジトリが役立つ理由
 
-## おすすめの読み順
+[Happy Horse 1.0](https://tryhappyhorse.com/) が特殊なのは、製品物語と benchmark 物語がほぼ同時に立ち上がったことです。
 
-1. [Verified Facts](./docs/verified-facts.md)
-2. [Timeline](./docs/timeline.md)
-3. [Claims Ledger](./docs/claims-ledger.md)
-4. [Benchmarks](./docs/benchmarks.md)
-5. [Prompt Library](./docs/prompts/prompt-library.md)
-6. [Failure Cases](./docs/prompts/failure-cases.md)
+- 製品側では、シネマティックな動画生成という強いポジショニング
+- ベンチマーク側では、複数カテゴリで非常に強い可視性
+
+そのため、公開情報の整備よりも先に議論だけが膨らみやすい状態になっています。
+
+## 何が起きたのか
+
+現在の公開タイムラインは短いですが、流れを理解するには十分です。
+
+1. `2026-04-08`
+   - 公開リポジトリ [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) が GitHub に登場。
+   - 公開 README はコードやモデルのリリースではなく、製品紹介型だった。
+
+2. `2026-04-08` から `2026-04-09`
+   - コミュニティの GitHub リポジトリが prompt、benchmark、rumor、source tracking など複数の角度から話題を拡張した。
+
+3. `2026-04-13`
+   - 公開 benchmark ページでは [Happy Horse 1.0](https://tryhappyhorse.com/) が複数カテゴリで非常に強い位置にある。
+   - 一方で、公式公開 GitHub リポジトリには重みや推論コードはまだ見えない。
 
 ## 現在の重要ポイント
 
-- `2026-04-13` 時点で、公開 GitHub リポジトリ [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) は存在しますが、公開面はまだ非常に軽量です。
-- 現在の公開 README は、コード公開ページというよりマーケティング寄りの製品紹介ページです。
-- `2026-04-13` 時点で、Artificial Analysis の公開ページでは [Happy Horse 1.0](https://tryhappyhorse.com/) が複数の動画カテゴリで非常に強い位置にあります。
-- 現時点では、公式公開 GitHub リポジトリに重みや推論コードが公開されている証拠はありません。
-- このリポジトリでは、ユーザー向けの Happy Horse サイト入口を [Happy Horse](https://tryhappyhorse.com/) に統一しています。
+- **[Verified]** 公開リポジトリ [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) は存在する。
+- **[Verified]** 公開説明では Happy Horse AI は `1080p cinematic video` と `advanced motion synthesis` を打ち出している。
+- **[Verified]** 現在の公開 README はマーケティング寄りで、コード公開ページではない。
+- **[Verified]** `2026-04-13` 時点で、HappyHorse-1.0 は `Text to Video (No Audio)` と `Image to Video (No Audio)` で先頭にいる。
+- **[Verified]** `Text to Video (With Audio)` でも非常に強い位置にいる。
+- **[Verified]** `Image to Video (With Audio)` では Seedance が先頭で、HappyHorse-1.0 は 2 位。
+- **[Rumor]** 現時点で open weights が既に公開されているという主張は、公式公開 GitHub リポジトリでは支えられていない。
 
-## よくある質問
+## すぐ使える導線
+
+| セクション | ドキュメント | 役割 |
+| --- | --- | --- |
+| 事実レイヤー | [Verified Facts](./docs/verified-facts.md) | 直接確認できる事実だけを読む |
+| クレーム台帳 | [Claims Ledger](./docs/claims-ledger.md) | 各 claim の状態、信頼度、出典を見る |
+| タイムライン | [Timeline](./docs/timeline.md) | どうやって話題になったかを追う |
+| ベンチマーク | [Benchmarks](./docs/benchmarks.md) | 日付付きの Elo / rank / sample snapshot を見る |
+| シグナル地図 | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | benchmark、公式 repo、コミュニティ repo、サイト主張の関係を見る |
+| 比較読解 | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | もっとも重要な head-to-head を読む |
+| Prompt ケース | [Prompt Library](./docs/prompts/prompt-library.md) | 何をどう試すかを見る |
+| Failure Cases | [Failure Cases](./docs/prompts/failure-cases.md) | どこで誤解しやすいかを見る |
+
+## FAQ
 
 ### Happy Horse とは何ですか？
 
@@ -44,9 +70,9 @@
 
 現在の公開情報だけでは、ローカル実行できると判断できません。公開された重みや推論パッケージは確認されていません。
 
-### Happy Horse のベンチマーク状況は？
+### Happy Horse の benchmark 状況は？
 
-`2026-04-13` 時点で、[Happy Horse 1.0](https://tryhappyhorse.com/) は複数の Artificial Analysis ランキングで非常に高い位置にあります。ただし、これらは日付つきのスナップショットです。詳しくは [Benchmarks](./docs/benchmarks.md) を参照してください。
+`2026-04-13` 時点で、[Happy Horse 1.0](https://tryhappyhorse.com/) は複数の Artificial Analysis ランキングで非常に高い位置にあります。ただし、これらは日付つきの snapshot です。詳しくは [Benchmarks](./docs/benchmarks.md) を参照してください。
 
 ### どのサイトを見ればいいですか？
 
@@ -54,4 +80,4 @@
 
 ## 多言語について
 
-現在、このリポジトリは英語・簡体字中国語・日本語・韓国語・スペイン語の README を提供しています。深い証拠ドキュメントは現時点では英語を主軸にしています。
+現在、このリポジトリは英語、中国語、日本語、韓国語、スペイン語、ポルトガル語、ドイツ語、フランス語、トルコ語、繁體中文、ロシア語の README を提供しています。深い証拠ドキュメントは現時点では英語を主軸にしています。
