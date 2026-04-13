@@ -1,0 +1,74 @@
+[
+  {
+    "id": "official_repo",
+    "label": "happyhorseai/happyhorse",
+    "url": "https://github.com/happyhorseai/happyhorse",
+    "type": "official",
+    "reliability": "high",
+    "notes": "Primary reviewed public source for repository state."
+  },
+  {
+    "id": "official_repo_api",
+    "label": "happyhorseai/happyhorse API",
+    "url": "https://api.github.com/repos/happyhorseai/happyhorse",
+    "type": "official",
+    "reliability": "high",
+    "notes": "Used for created_at, description, stars, and repo metadata."
+  },
+  {
+    "id": "official_readme",
+    "label": "Official public README",
+    "url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+    "type": "official",
+    "reliability": "high",
+    "notes": "Primary reviewed source for current README framing."
+  },
+  {
+    "id": "aa_t2v",
+    "label": "Artificial Analysis Text to Video leaderboard",
+    "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "type": "benchmark",
+    "reliability": "high",
+    "notes": "Used for time-sensitive text-to-video snapshot values checked on 2026-04-13."
+  },
+  {
+    "id": "aa_i2v",
+    "label": "Artificial Analysis Image to Video leaderboard",
+    "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+    "type": "benchmark",
+    "reliability": "high",
+    "notes": "Used for time-sensitive image-to-video snapshot values checked on 2026-04-13."
+  },
+  {
+    "id": "brooks_repo",
+    "label": "brooks376/Happy-Horse-1.0",
+    "url": "https://github.com/brooks376/Happy-Horse-1.0",
+    "type": "community",
+    "reliability": "medium",
+    "notes": "Useful public intelligence repo; explicitly unofficial."
+  },
+  {
+    "id": "robert_repo",
+    "label": "robert-2-j/HappyHorse-1.0",
+    "url": "https://github.com/robert-2-j/HappyHorse-1.0",
+    "type": "community",
+    "reliability": "medium",
+    "notes": "Useful for evidence hierarchy and timeline framing."
+  },
+  {
+    "id": "zerolu_repo",
+    "label": "ZeroLu/awesome-happy-horse",
+    "url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "type": "community",
+    "reliability": "medium",
+    "notes": "Useful for prompt and sample discovery."
+  },
+  {
+    "id": "evolink_repo",
+    "label": "EvoLinkAI/happyhorse-1.0",
+    "url": "https://github.com/EvoLinkAI/happyhorse-1.0",
+    "type": "community",
+    "reliability": "medium",
+    "notes": "Useful for signal-tracking and source-map framing."
+  }
+]

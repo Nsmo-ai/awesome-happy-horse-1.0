@@ -1,0 +1,62 @@
+[
+  {
+    "id": "official_repo_created",
+    "date": "2026-04-08",
+    "title": "Official public GitHub repo appears",
+    "summary": "happyhorseai/happyhorse is created as a public repository.",
+    "impact": "Creates a direct public reference point for the product.",
+    "sources": [
+      "https://api.github.com/repos/happyhorseai/happyhorse"
+    ]
+  },
+  {
+    "id": "official_marketing_readme",
+    "date": "2026-04-08",
+    "title": "Official repo launches with marketing README",
+    "summary": "The initial public GitHub presence is a product-positioning README.",
+    "impact": "Signals branding-first GitHub usage rather than code release.",
+    "sources": [
+      "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md"
+    ]
+  },
+  {
+    "id": "brooks_info_repo",
+    "date": "2026-04-08",
+    "title": "Personal information collection repo appears",
+    "summary": "brooks376/Happy-Horse-1.0 publishes a long-form public intelligence page.",
+    "impact": "Starts the unofficial intelligence-repo pattern.",
+    "sources": [
+      "https://github.com/brooks376/Happy-Horse-1.0"
+    ]
+  },
+  {
+    "id": "zerolu_awesome_repo",
+    "date": "2026-04-09",
+    "title": "Awesome-style resource repo appears",
+    "summary": "ZeroLu/awesome-happy-horse frames Happy Horse as a curated prompt and benchmark topic.",
+    "impact": "Adds reusable prompt and sample-library framing.",
+    "sources": [
+      "https://github.com/ZeroLu/awesome-happy-horse"
+    ]
+  },
+  {
+    "id": "robert_timeline_repo",
+    "date": "2026-04-09",
+    "title": "Source-hierarchy repo appears",
+    "summary": "robert-2-j/HappyHorse-1.0 emphasizes evidence hierarchy and timeline reconstruction.",
+    "impact": "Raises the public standard for fact-vs-rumor framing.",
+    "sources": [
+      "https://github.com/robert-2-j/HappyHorse-1.0"
+    ]
+  },
+  {
+    "id": "evolink_signal_repo",
+    "date": "2026-04-09",
+    "title": "Signal-tracking repo appears",
+    "summary": "EvoLinkAI/happyhorse-1.0 packages the topic as a source-map and monitoring project.",
+    "impact": "Pushes the conversation toward rapid public-intel updates.",
+    "sources": [
+      "https://github.com/EvoLinkAI/happyhorse-1.0"
+    ]
+  }
+]

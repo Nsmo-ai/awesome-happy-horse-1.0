@@ -1,0 +1,93 @@
+[
+  {
+    "id": "cave_flashlight_cinematic",
+    "prompt": "A flashlight beam exploring a cave system, illuminating wet limestone formations. The light catches crystalline calcite deposits that glitter and flash. Where the beam passes through shallow standing water, it creates bright caustic patterns on the submerged floor. Stalactites cast long, swinging shadows as the flashlight moves. Audio: Dripping water echoing, footsteps on wet rock, breathing in enclosed space.",
+    "task_type": "text-to-video",
+    "goal": "Stress atmosphere, moving light, textured surfaces, and immersive audio cues.",
+    "observations": [
+      "Strong cinematic environment test",
+      "Useful for lighting and material realism"
+    ],
+    "status": "successful",
+    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "graduation_banner_chaos",
+    "prompt": "A massive \"CONGRATULATIONS GRADUATES\" banner being unfurled across a university building by maintenance workers on the roof. The wind catches it mid-unfurl, turning it into a sail that nearly lifts one worker off their feet. Coworkers grab him, everyone laughs, and the banner finally drops into place. Below, students start taking selfies immediately. Audio: Wind gusting, workers shouting and laughing, distant cheering.",
+    "task_type": "text-to-video",
+    "goal": "Stress multi-subject action, sequence coherence, and audio-guided physical comedy.",
+    "observations": [
+      "Good for action sequencing",
+      "Good for multi-actor timing"
+    ],
+    "status": "successful",
+    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "product_visual_sequence_template",
+    "prompt": "A premium product hero sequence for a modern SaaS landing page: crisp lighting, high contrast, clean background, slow cinematic reveal, subtle camera movement, strong composition, polished materials, emotionally resonant visual tone, optimized for conversion-focused web design.",
+    "task_type": "derived-template",
+    "goal": "Translate the official public marketing language into a reusable prompt skeleton.",
+    "observations": [
+      "Derived from positioning, not a community-published prompt",
+      "Useful for conversion-oriented visual testing"
+    ],
+    "status": "mixed",
+    "source_url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "mirrorless_kitchen_product_reveal",
+    "prompt": "A premium espresso machine on a stone countertop in a sunlit modern kitchen. The camera starts close on brushed metal details, then slowly pulls back as steam rises from a fresh shot. Soft natural reflections move across the polished surfaces. Audio: Low ambient kitchen hum, ceramic cup placement, espresso extraction, subtle steam.",
+    "task_type": "text-to-video",
+    "goal": "Stress product realism, reflective materials, and premium lifestyle framing.",
+    "observations": [
+      "Useful for geometry preservation",
+      "Useful for premium product framing"
+    ],
+    "status": "mixed",
+    "source_url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "multilingual_spokesperson_delivery",
+    "prompt": "A confident spokesperson in a bright studio delivers a short launch announcement directly to camera. Natural lip movement, calm hand gestures, soft background depth, subtle camera drift, clean wardrobe, and polished lighting. Audio: Clear spoken delivery, light room tone, no background music.",
+    "task_type": "text-to-video",
+    "goal": "Stress direct-to-camera delivery, lip-sync quality, and marketing communication clarity.",
+    "observations": [
+      "Useful for catching awkward mouth motion",
+      "Useful for direct-to-camera ad scenarios"
+    ],
+    "status": "mixed",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "storefront_to_checkout_storybeat",
+    "prompt": "A customer notices a beautifully arranged storefront display, walks inside, picks up a featured product, and reaches the checkout counter in one fluid sequence. Warm lighting, natural crowd motion in the background, stable subject continuity, and believable retail pacing. Audio: Door chime, soft foot traffic, quiet register sounds, low conversation bed.",
+    "task_type": "text-to-video",
+    "goal": "Stress multi-beat narrative continuity and commercial storytelling.",
+    "observations": [
+      "Useful for checking subject persistence across beats",
+      "Useful for spotting continuity collapse"
+    ],
+    "status": "mixed",
+    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "last_checked": "2026-04-13"
+  },
+  {
+    "id": "image_to_video_character_hold",
+    "prompt": "Animate a still portrait of a traveler standing at a train platform. Keep facial identity stable while adding natural blinking, subtle wind movement in hair and clothing, shifting platform light, and a train arriving softly in the background. Audio: Platform ambience, distant announcement, rail movement, light wind.",
+    "task_type": "image-to-video",
+    "goal": "Stress identity retention and controlled motion in an image-to-video setup.",
+    "observations": [
+      "Useful for catching identity drift",
+      "Useful for checking whether motion stays subordinate to subject stability"
+    ],
+    "status": "mixed",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+    "last_checked": "2026-04-13"
+  }
+]

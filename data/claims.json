@@ -1,0 +1,267 @@
+[
+  {
+    "id": "public_repo_exists",
+    "claim": "A public GitHub repository for Happy Horse exists.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "release",
+    "sources": [
+      {
+        "label": "happyhorseai/happyhorse",
+        "url": "https://github.com/happyhorseai/happyhorse",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Directly observable public repository."
+  },
+  {
+    "id": "repo_is_readme_only",
+    "claim": "The current public GitHub repo is effectively README-only at the root.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "release",
+    "sources": [
+      {
+        "label": "Repository contents API",
+        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "As checked on 2026-04-13, the root content exposure is a single README."
+  },
+  {
+    "id": "repo_claims_1080p_video",
+    "claim": "The public repo description claims 1080p cinematic video generation.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "positioning",
+    "sources": [
+      {
+        "label": "GitHub repo metadata",
+        "url": "https://api.github.com/repos/happyhorseai/happyhorse",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "This is a public product-positioning claim, not an independently validated capability claim."
+  },
+  {
+    "id": "repo_claims_free_no_signup",
+    "claim": "The public repo description says HappyHorse AI is free online with no sign up required.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "access",
+    "sources": [
+      {
+        "label": "GitHub repo metadata",
+        "url": "https://api.github.com/repos/happyhorseai/happyhorse",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Tracked as a current public access claim."
+  },
+  {
+    "id": "repo_links_happyhorse_app",
+    "claim": "The current official public README references the domain happyhorse.app.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "official-surface",
+    "sources": [
+      {
+        "label": "Official public README",
+        "url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Tracked as a source fact, not used here as the canonical surfaced product link."
+  },
+  {
+    "id": "repo_uses_tryhappyhorse",
+    "claim": "This repository uses tryhappyhorse.com as its canonical surfaced Happy Horse website link.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "editorial",
+    "sources": [
+      {
+        "label": "Methodology",
+        "url": "https://github.com/",
+        "type": "internal"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Reader-facing link normalization rule for this repository."
+  },
+  {
+    "id": "weights_available_now",
+    "claim": "Happy Horse model weights are currently available from the official public GitHub repo.",
+    "status": "Outdated",
+    "confidence": "high",
+    "category": "release",
+    "sources": [
+      {
+        "label": "Repository contents API",
+        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Current reviewed repo structure does not support this claim."
+  },
+  {
+    "id": "inference_code_available_now",
+    "claim": "Inference code is currently exposed in the official public GitHub repo.",
+    "status": "Outdated",
+    "confidence": "high",
+    "category": "release",
+    "sources": [
+      {
+        "label": "Repository contents API",
+        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
+        "type": "official"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Not supported by the current official public repo."
+  },
+  {
+    "id": "top_benchmark_narrative",
+    "claim": "HappyHorse-1.0 is repeatedly cited near the top of community benchmark discussions.",
+    "status": "Likely",
+    "confidence": "medium",
+    "category": "benchmark",
+    "sources": [
+      {
+        "label": "robert-2-j README",
+        "url": "https://github.com/robert-2-j/HappyHorse-1.0",
+        "type": "community"
+      },
+      {
+        "label": "ZeroLu README",
+        "url": "https://github.com/ZeroLu/awesome-happy-horse",
+        "type": "community"
+      }
+    ],
+    "first_seen": "2026-04-09",
+    "last_checked": "2026-04-13",
+    "notes": "Repeated enough to matter, but not independently re-run here."
+  },
+  {
+    "id": "aa_t2v_no_audio_lead",
+    "claim": "As checked on 2026-04-13, Artificial Analysis lists HappyHorse-1.0 as the leader for Text to Video without audio at Elo 1384.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "benchmark",
+    "sources": [
+      {
+        "label": "Artificial Analysis Text to Video leaderboard",
+        "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "type": "benchmark"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Leaderboard snapshot claim; values and rank may change over time."
+  },
+  {
+    "id": "aa_t2v_with_audio_lead",
+    "claim": "As checked on 2026-04-13, Artificial Analysis FAQ text lists HappyHorse-1.0 as the leader for Text to Video with audio at Elo 1236.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "benchmark",
+    "sources": [
+      {
+        "label": "Artificial Analysis Text to Video leaderboard",
+        "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "type": "benchmark"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Taken from the FAQ block on the public page."
+  },
+  {
+    "id": "aa_i2v_no_audio_lead",
+    "claim": "As checked on 2026-04-13, Artificial Analysis lists HappyHorse-1.0 as the leader for Image to Video without audio at Elo 1413.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "benchmark",
+    "sources": [
+      {
+        "label": "Artificial Analysis Image to Video leaderboard",
+        "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "type": "benchmark"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Leaderboard snapshot claim; values and rank may change over time."
+  },
+  {
+    "id": "aa_i2v_with_audio_second",
+    "claim": "As checked on 2026-04-13, Artificial Analysis FAQ text lists HappyHorse-1.0 as #2 for Image to Video with audio at Elo 1162, behind Dreamina Seedance 2.0 720p at Elo 1166.",
+    "status": "Verified",
+    "confidence": "high",
+    "category": "benchmark",
+    "sources": [
+      {
+        "label": "Artificial Analysis Image to Video leaderboard",
+        "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "type": "benchmark"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Important nuance that prevents over-compressed benchmark claims."
+  },
+  {
+    "id": "seedance_is_main_comparator",
+    "claim": "Seedance is the main comparison target in the current GitHub discussion.",
+    "status": "Likely",
+    "confidence": "medium",
+    "category": "comparison",
+    "sources": [
+      {
+        "label": "ZeroLu README",
+        "url": "https://github.com/ZeroLu/awesome-happy-horse",
+        "type": "community"
+      },
+      {
+        "label": "EvoLinkAI README",
+        "url": "https://github.com/EvoLinkAI/happyhorse-1.0",
+        "type": "community"
+      }
+    ],
+    "first_seen": "2026-04-09",
+    "last_checked": "2026-04-13",
+    "notes": "This is a narrative dominance claim, not a performance verdict."
+  },
+  {
+    "id": "already_open_weights",
+    "claim": "Happy Horse is already released as open weights.",
+    "status": "Rumor",
+    "confidence": "medium",
+    "category": "release",
+    "sources": [
+      {
+        "label": "brooks376 README",
+        "url": "https://github.com/brooks376/Happy-Horse-1.0",
+        "type": "community"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Publicly circulated but not supported by the current official public repo."
+  }
+]

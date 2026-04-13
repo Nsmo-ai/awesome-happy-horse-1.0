@@ -1,0 +1,184 @@
+[
+  {
+    "snapshot_date": "2026-04-13",
+    "source": "Artificial Analysis Text to Video leaderboard",
+    "task": "text-to-video",
+    "variant": "no-audio",
+    "models": [
+      {
+        "name": "HappyHorse-1.0",
+        "rank": 1,
+        "elo": 1384,
+        "samples": 13983,
+        "released": "Apr 2026",
+        "api_status": "Coming soon",
+        "status": "Verified"
+      },
+      {
+        "name": "Dreamina Seedance 2.0 720p",
+        "rank": 2,
+        "elo": 1273,
+        "samples": 4739,
+        "released": "Mar 2026",
+        "api_status": "No public API",
+        "status": "Verified"
+      },
+      {
+        "name": "SkyReels V4",
+        "rank": 3,
+        "elo": 1242,
+        "samples": 5246,
+        "released": "Mar 2026",
+        "api_status": "$7.20 /min",
+        "status": "Verified"
+      },
+      {
+        "name": "Kling 3.0 1080p (Pro)",
+        "rank": 4,
+        "elo": 1240,
+        "samples": 5361,
+        "released": "Feb 2026",
+        "api_status": "$13.44 /min",
+        "status": "Verified"
+      },
+      {
+        "name": "Kling 3.0 Omni 1080p (Pro)",
+        "rank": 5,
+        "elo": 1228,
+        "samples": 5962,
+        "released": "Feb 2026",
+        "api_status": "$13.44 /min",
+        "status": "Verified"
+      }
+    ]
+  },
+  {
+    "snapshot_date": "2026-04-13",
+    "source": "Artificial Analysis Text to Video leaderboard",
+    "task": "text-to-video",
+    "variant": "with-audio",
+    "models": [
+      {
+        "name": "HappyHorse-1.0",
+        "rank": 1,
+        "elo": 1236,
+        "status": "Verified"
+      },
+      {
+        "name": "Dreamina Seedance 2.0 720p",
+        "rank": 2,
+        "elo": 1224,
+        "status": "Verified"
+      },
+      {
+        "name": "SkyReels V4",
+        "rank": 3,
+        "elo": 1142,
+        "status": "Verified"
+      },
+      {
+        "name": "Kling 3.0 Omni 1080p (Pro)",
+        "rank": 4,
+        "elo": 1107,
+        "status": "Verified"
+      },
+      {
+        "name": "Kling 3.0 1080p (Pro)",
+        "rank": 5,
+        "elo": 1104,
+        "status": "Verified"
+      }
+    ]
+  },
+  {
+    "snapshot_date": "2026-04-13",
+    "source": "Artificial Analysis Image to Video leaderboard",
+    "task": "image-to-video",
+    "variant": "no-audio",
+    "models": [
+      {
+        "name": "HappyHorse-1.0",
+        "rank": 1,
+        "elo": 1413,
+        "samples": 14587,
+        "released": "Apr 2026",
+        "api_status": "Coming soon",
+        "status": "Verified"
+      },
+      {
+        "name": "Dreamina Seedance 2.0 720p",
+        "rank": 2,
+        "elo": 1357,
+        "samples": 4675,
+        "released": "Mar 2026",
+        "api_status": "No public API",
+        "status": "Verified"
+      },
+      {
+        "name": "grok-imagine-video",
+        "rank": 3,
+        "elo": 1331,
+        "samples": 6515,
+        "released": "Jan 2026",
+        "api_status": "$4.20 /min",
+        "status": "Verified"
+      },
+      {
+        "name": "PixVerse V6",
+        "rank": 4,
+        "elo": 1308,
+        "samples": 15003,
+        "released": "Mar 2026",
+        "api_status": "$5.40 /min",
+        "status": "Verified"
+      },
+      {
+        "name": "Kling 3.0 Omni 1080p (Pro)",
+        "rank": 5,
+        "elo": 1298,
+        "samples": 4920,
+        "released": "Feb 2026",
+        "api_status": "$13.44 /min",
+        "status": "Verified"
+      }
+    ]
+  },
+  {
+    "snapshot_date": "2026-04-13",
+    "source": "Artificial Analysis Image to Video leaderboard",
+    "task": "image-to-video",
+    "variant": "with-audio",
+    "models": [
+      {
+        "name": "Dreamina Seedance 2.0 720p",
+        "rank": 1,
+        "elo": 1166,
+        "status": "Verified"
+      },
+      {
+        "name": "HappyHorse-1.0",
+        "rank": 2,
+        "elo": 1162,
+        "status": "Verified"
+      },
+      {
+        "name": "SkyReels V4",
+        "rank": 3,
+        "elo": 1086,
+        "status": "Verified"
+      },
+      {
+        "name": "Veo 3.1 Fast",
+        "rank": 4,
+        "elo": 1079,
+        "status": "Verified"
+      },
+      {
+        "name": "Veo 3.1",
+        "rank": 5,
+        "elo": 1076,
+        "status": "Verified"
+      }
+    ]
+  }
+]
