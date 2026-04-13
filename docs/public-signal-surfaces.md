@@ -12,12 +12,12 @@ This visual is intentionally styled like a technical `framework + blueprint` inf
 
 ```mermaid
 flowchart TD
-    A["Official Repo Surface
+    A["Public Repo Surface
     repo / README / exposed files"] --> B["Public Product Narrative"]
     C["Benchmark Surface
     leaderboards / Elo / samples"] --> D["Performance Narrative"]
-    E["Community GitHub Surface
-    prompt hubs / rumor maps / source trackers"] --> F["Narrative Amplification"]
+    E["Social Discussion Surface
+    X / Reddit / reposted interpretation"] --> F["Narrative Amplification"]
     G["Site-Claim Surface
     domains / trial links / 'official' site claims"] --> H["Access Confusion"]
 
@@ -49,16 +49,16 @@ flowchart TD
 
 | Layer | What it contains | Strength | Main risk |
 | --- | --- | --- | --- |
-| Official repo surface | Public GitHub repo, repo description, README, current exposed files | Best source for what is directly public today | Can be very incomplete |
+| Public repo surface | Public GitHub repo, repo description, README, current exposed files | Best source for what is directly public today | Can be very incomplete |
 | Benchmark surface | Public leaderboard pages, Elo values, category positions, sample counts | Best source for current performance snapshots | Fast-moving and time-sensitive |
-| Community GitHub surface | Prompt hubs, rumor maps, source trackers, comparison summaries | Good for seeing narrative spread and search demand | Can amplify unverified claims |
+| Social discussion surface | X posts, Reddit threads, reposted interpretation, comparison chatter | Good for seeing narrative spread and search demand | Can amplify unverified claims |
 | Site-claim surface | Product domains, trial-link rumors, “official site” assertions | Useful for navigation context | High risk of mislabeling and fake authority |
 
 ## Relationship Map
 
-### 1. Official Repo -> Product Narrative
+### 1. Public Repo -> Product Narrative
 
-The official public repo is currently the best direct source for:
+The public repo surface is currently the best direct source for:
 
 - how Happy Horse is positioning itself in public
 - which website it is explicitly linking to
@@ -92,21 +92,21 @@ They are weaker for:
 Use:
 - [Benchmarks](./benchmarks.md)
 
-### 3. Community Repos -> Narrative Expansion
+### 3. Social Discussion -> Narrative Expansion
 
-Community GitHub repos matter because they are where the topic gets expanded into:
+Public discussion matters because this is where the topic gets expanded into:
 
-- prompt collections
 - comparison frames
-- rumor tracking
-- source aggregation
-- search-friendly thematic coverage
+- attribution guesses
+- rumor spread
+- benchmark interpretation
+- access speculation
 
 They are strongest for:
 
 - seeing what people are asking
 - seeing which comparison frames dominate
-- discovering public examples and prompts
+- seeing which claims are spreading fastest
 
 They are weakest for:
 
@@ -164,7 +164,7 @@ If you only have time to check a few things, check them in this order:
    - Is a new domain being promoted as official?
    - Is the currently visible site still aligned with the official repo surface?
 
-4. **Community GitHub surface**
+4. **Social discussion surface**
    - Which new claims are spreading?
    - Which comparison frame is becoming dominant?
    - Are there new prompt patterns worth preserving?
@@ -176,17 +176,17 @@ Use this page when a reader asks:
 - “why are the signals so contradictory?”
 - “which layer should I trust for this question?”
 - “why do benchmark wins not automatically prove release clarity?”
-- “why do community repos feel more complete than the official repo?”
+- “why does social discussion feel more complete than the public repo surface?”
 
 ## Which layer to trust for which question
 
 | Question | Best layer |
 | --- | --- |
-| Is there a public repo? | Official repo surface |
-| Are weights exposed right now? | Official repo surface |
+| Is there a public repo? | Public repo surface |
+| Are weights exposed right now? | Public repo surface |
 | What is the current Elo? | Benchmark surface |
 | Is Happy Horse beating Seedance everywhere? | Benchmark surface + failure/caution layer |
-| What prompts should I try first? | Community GitHub surface + prompt layer |
+| What prompts should I try first? | Social discussion layer + prompt layer |
 | Which site should I click? | Site-claim surface, filtered through this repo's editorial rules |
 
 ## Safe reading rule
@@ -196,5 +196,5 @@ If a claim depends on more than one layer, do not let the noisiest layer dominat
 Examples:
 
 - A leaderboard claim should be read from the benchmark layer, not from reposted commentary.
-- A “site is official” claim should be read from the official repo layer first, not from community SEO pages.
+- A “site is official” claim should be read from the public repo layer first, not from social amplification.
 - A strong-looking comparison clip should be checked against the failure layer before it is repeated as proof.

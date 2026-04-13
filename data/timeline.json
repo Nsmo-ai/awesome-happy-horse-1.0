@@ -1,62 +1,45 @@
 [
   {
-    "id": "official_repo_created",
+    "id": "aa_public_signal",
     "date": "2026-04-08",
-    "title": "Official public GitHub repo appears",
-    "summary": "happyhorseai/happyhorse is created as a public repository.",
-    "impact": "Creates a direct public reference point for the product.",
+    "title": "Artificial Analysis surfaces HappyHorse publicly",
+    "summary": "Artificial Analysis public discussion helps turn HappyHorse-1.0 into a visible benchmark topic.",
+    "impact": "Creates the first major public benchmark-facing visibility wave.",
     "sources": [
-      "https://api.github.com/repos/happyhorseai/happyhorse"
+      "https://x.com/ArtificialAnlys/status/2041591989083500933"
     ]
   },
   {
-    "id": "official_marketing_readme",
+    "id": "x_amplification",
     "date": "2026-04-08",
-    "title": "Official repo launches with marketing README",
-    "summary": "The initial public GitHub presence is a product-positioning README.",
-    "impact": "Signals branding-first GitHub usage rather than code release.",
+    "title": "High-reach X accounts amplify the benchmark story",
+    "summary": "Public X discussion expands the topic through benchmark interpretation and comparison framing.",
+    "impact": "Pushes the story beyond a single benchmark page into wider AI-tool discourse.",
     "sources": [
-      "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md"
+      "https://x.com/venturetwins/status/2041554747086553093",
+      "https://x.com/AngryTomtweets/status/2041640342764843097"
     ]
   },
   {
-    "id": "brooks_info_repo",
-    "date": "2026-04-08",
-    "title": "Personal information collection repo appears",
-    "summary": "brooks376/Happy-Horse-1.0 publishes a long-form public intelligence page.",
-    "impact": "Starts the unofficial intelligence-repo pattern.",
-    "sources": [
-      "https://github.com/brooks376/Happy-Horse-1.0"
-    ]
-  },
-  {
-    "id": "zerolu_awesome_repo",
+    "id": "reddit_spread",
     "date": "2026-04-09",
-    "title": "Awesome-style resource repo appears",
-    "summary": "ZeroLu/awesome-happy-horse frames Happy Horse as a curated prompt and benchmark topic.",
-    "impact": "Adds reusable prompt and sample-library framing.",
+    "title": "Reddit discussion broadens the topic",
+    "summary": "Public Reddit threads carry the topic into broader AI communities with more skepticism and open-weights interest.",
+    "impact": "Shifts the conversation from visibility alone toward release expectations and trust questions.",
     "sources": [
-      "https://github.com/ZeroLu/awesome-happy-horse"
+      "https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/"
     ]
   },
   {
-    "id": "robert_timeline_repo",
-    "date": "2026-04-09",
-    "title": "Source-hierarchy repo appears",
-    "summary": "robert-2-j/HappyHorse-1.0 emphasizes evidence hierarchy and timeline reconstruction.",
-    "impact": "Raises the public standard for fact-vs-rumor framing.",
+    "id": "social_legitimacy_layer",
+    "date": "2026-04-13",
+    "title": "Public X surfaces strengthen legitimacy discussion",
+    "summary": "The HappyHorseATH account and Alibaba Group post become part of the public narrative around attribution and legitimacy.",
+    "impact": "Strengthens the social discussion layer without replacing direct release evidence.",
     "sources": [
-      "https://github.com/robert-2-j/HappyHorse-1.0"
-    ]
-  },
-  {
-    "id": "evolink_signal_repo",
-    "date": "2026-04-09",
-    "title": "Signal-tracking repo appears",
-    "summary": "EvoLinkAI/happyhorse-1.0 packages the topic as a source-map and monitoring project.",
-    "impact": "Pushes the conversation toward rapid public-intel updates.",
-    "sources": [
-      "https://github.com/EvoLinkAI/happyhorse-1.0"
+      "https://x.com/HappyHorseATH",
+      "https://x.com/AlibabaGroup/status/2042462318370701535"
     ]
   }
 ]

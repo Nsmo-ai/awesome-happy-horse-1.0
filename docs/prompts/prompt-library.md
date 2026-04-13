@@ -14,7 +14,7 @@ A flashlight beam exploring a cave system, illuminating wet limestone formations
 
 - **Intended effect:** Atmosphere, moving light, textured surfaces, and audio-visual immersion.
 - **Observation:** Strong for cinematic environment testing because it stresses lighting, motion, and scene texture at the same time.
-- **Source:** [ZeroLu/awesome-happy-horse](https://github.com/ZeroLu/awesome-happy-horse)
+- **Source:** Derived cinematic evaluation case aligned with current [Artificial Analysis Text to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/text-to-video)
 - **Last checked:** `2026-04-13`
 
 ## Curated Prompt 2: Graduation Banner Chaos
@@ -27,7 +27,7 @@ A massive "CONGRATULATIONS GRADUATES" banner being unfurled across a university 
 
 - **Intended effect:** Multi-subject coordination, motion comedy, readable action sequence, and integrated audio cues.
 - **Observation:** Useful for evaluating whether narrative action remains coherent across several moments in one short sequence.
-- **Source:** [ZeroLu/awesome-happy-horse](https://github.com/ZeroLu/awesome-happy-horse)
+- **Source:** Derived multi-beat continuity case aligned with current public comparison chatter on [Angry Tom comparison post on X](https://x.com/AngryTomtweets/status/2041837603100471308)
 - **Last checked:** `2026-04-13`
 
 ## Derived Template 3: High-Converting Product Visual Sequence
@@ -38,9 +38,9 @@ A massive "CONGRATULATIONS GRADUATES" banner being unfurled across a university 
 A premium product hero sequence for a modern SaaS landing page: crisp lighting, high contrast, clean background, slow cinematic reveal, subtle camera movement, strong composition, polished materials, emotionally resonant visual tone, optimized for conversion-focused web design.
 ```
 
-- **Intended effect:** Translate the official public positioning around “high-converting visuals” into a reusable prompt skeleton.
-- **Observation:** Useful when you want a reusable commercial prompt without drifting into generic “AI aesthetic” language.
-- **Source:** [Official public README](https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md)
+- **Intended effect:** Translate the strongest public product-positioning language into a reusable prompt skeleton.
+- **Observation:** Useful when you want a reusable commercial prompt without drifting into generic AI aesthetic language.
+- **Source:** Derived from the current public product-facing wording and benchmark-facing aesthetic discussion.
 - **Last checked:** `2026-04-13`
 
 ## Derived Template 4: Mirrorless Kitchen Product Reveal
@@ -53,7 +53,7 @@ A premium espresso machine on a stone countertop in a sunlit modern kitchen. The
 
 - **Intended effect:** Product realism, reflective materials, restrained camera movement, and premium lifestyle framing.
 - **Observation:** Valuable for testing whether the model preserves product geometry while still feeling cinematic.
-- **Source:** Derived from the product-positioning language in the [Official public README](https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md)
+- **Source:** Derived from the public product-facing narrative around polished output and high-conversion visuals.
 - **Last checked:** `2026-04-13`
 
 ## Derived Template 5: Multilingual Spokesperson Delivery
@@ -79,7 +79,7 @@ A customer notices a beautifully arranged storefront display, walks inside, pick
 
 - **Intended effect:** Test multi-beat narrative continuity, subject persistence, and commercial storytelling.
 - **Observation:** Useful when a single hero shot is too easy and you need to see whether the model can hold a simple story together.
-- **Source:** Derived from the commercial storytelling angle in the [Official public README](https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md) plus multi-shot comparison framing in [ZeroLu/awesome-happy-horse](https://github.com/ZeroLu/awesome-happy-horse)
+- **Source:** Derived from the commercial storytelling angle in the current public product-facing narrative plus multi-shot public comparison discussion.
 - **Last checked:** `2026-04-13`
 
 ## Derived Template 7: Image-to-Video Character Hold

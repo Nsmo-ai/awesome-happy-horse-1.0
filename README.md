@@ -37,19 +37,19 @@ That combination creates fast-moving demand for answers. People want to know whe
 
 The short public timeline is already enough to matter:
 
-1. On `2026-04-08`, the public repository [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) appeared on GitHub.
-2. Its public README launched as a marketing-oriented page, not as a code release or model release.
-3. Within the next 24 hours, community repos expanded the topic into prompt hubs, rumor maps, benchmark summaries, and signal trackers.
+1. On `2026-04-08`, Artificial Analysis publicly surfaces HappyHorse-1.0 in benchmark discussion.
+2. High-reach X accounts quickly amplify the benchmark story and comparison framing.
+3. Reddit carries the topic into broader AI communities, where skepticism and open-weights speculation rise.
 4. As checked on `2026-04-13`, Artificial Analysis public pages show `HappyHorse-1.0` leading `Text to Video (No Audio)`, `Image to Video (No Audio)`, and `Text to Video (With Audio)`, while `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` with `HappyHorse-1.0` in second.
-5. The official public GitHub repo still does not expose public weights or inference code.
+5. Public release clarity still trails behind discussion intensity.
 
 The short version is: Happy Horse AI already has enough benchmark gravity to matter, but the public release surface is still thinner than the surrounding narrative.
 
 ## Latest Status
 
-- **[Verified]** A public repository named [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) exists and was created on `2026-04-08`.
-- **[Verified]** The current official public repo description frames Happy Horse AI as a product that turns text or images into `1080p cinematic video` with `advanced motion synthesis`, and says it is `free online` with `no sign up required`.
-- **[Verified]** The current official public README is a marketing landing page, not a code release or model release page.
+- **[Verified]** Public benchmark and discussion surfaces now make HappyHorse-1.0 one of the most visible AI video topics in circulation.
+- **[Verified]** As checked on `2026-04-13`, Artificial Analysis public pages show category-leading performance for HappyHorse-1.0 across multiple video tasks.
+- **[Likely]** The public product-facing narrative around Happy Horse AI is stronger and more polished than its publicly documented technical release surface.
 - **[Verified]** As checked on `2026-04-13`, Artificial Analysis lists `HappyHorse-1.0` at the top of both `Text to Video (No Audio)` and `Image to Video (No Audio)`.
 - **[Verified]** As checked on `2026-04-13`, Artificial Analysis FAQ text lists `HappyHorse-1.0` as the current leader for `Text to Video (With Audio)`.
 - **[Verified]** As checked on `2026-04-13`, `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` while `HappyHorse-1.0` is second.
@@ -93,40 +93,39 @@ If you want to know where the narrative comes from, these are the main evidence 
 
 | Layer | What it contributes | Where to start |
 | --- | --- | --- |
-| Official public repo | Product positioning, current public release surface, current site references | [Verified Facts](./docs/verified-facts.md) |
+| Public product surface | Product positioning, currently visible access surface, site-level narrative | [Verified Facts](./docs/verified-facts.md) |
 | Live benchmark pages | Time-sensitive Elo, ranks, sample counts, with-audio vs no-audio distinctions | [Benchmarks](./docs/benchmarks.md) |
-| Community intelligence repos | Narrative spread, comparison framing, prompt circulation, rumor pressure | [Claims Ledger](./docs/claims-ledger.md) |
+| X and Reddit discussion | Narrative spread, comparison framing, rumor pressure, trust signals | [Claims Ledger](./docs/claims-ledger.md) |
 | Failure and caution context | Mislabeling risk, fake-link inflation, overclaiming risk | [Failure Cases](./docs/prompts/failure-cases.md) |
 
 ### Key sources in the current public narrative
 
-#### Official public surfaces
+#### Public product and benchmark surfaces
 
-- [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse)
 - [Happy Horse](https://tryhappyhorse.com/)
-
-#### Benchmark surfaces
-
 - [Artificial Analysis Text to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/text-to-video)
 - [Artificial Analysis Image to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/image-to-video)
 
-#### Community GitHub surfaces
+#### X and Reddit discussion surfaces
 
-- [`brooks376/Happy-Horse-1.0`](https://github.com/brooks376/Happy-Horse-1.0)
-- [`robert-2-j/HappyHorse-1.0`](https://github.com/robert-2-j/HappyHorse-1.0)
-- [`ZeroLu/awesome-happy-horse`](https://github.com/ZeroLu/awesome-happy-horse)
-- [`EvoLinkAI/happyhorse-1.0`](https://github.com/EvoLinkAI/happyhorse-1.0)
+- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
+- [Justine Moore on X](https://x.com/venturetwins/status/2041554747086553093)
+- [Angry Tom on X](https://x.com/AngryTomtweets/status/2041640342764843097)
+- [HappyHorseATH on X](https://x.com/HappyHorseATH)
+- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
+- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
+- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
 
 ## Public Signal Surfaces
 
 This repository is strongest when read as a bridge between three public layers:
 
-- `official product layer`
-  - what the current public repo and product-facing surfaces are actually saying
+- `public product layer`
+  - what the currently visible product-facing surfaces are actually saying
 - `benchmark layer`
   - what the current leaderboard pages show, with dates attached
-- `community amplification layer`
-  - how GitHub SEO repos and public discussion are interpreting the model
+- `social discussion layer`
+  - how X and Reddit are interpreting and amplifying the model
 
 ### What changes fastest
 
@@ -142,8 +141,8 @@ The following topics are the most time-sensitive and should always be re-checked
 
 The following topics are relatively stable and better suited for evergreen reading:
 
-- the current official repo is lightweight
-- the repo is marketing-led rather than code-led
+- public release clarity remains thinner than discussion intensity
+- the currently visible product-facing layer is more marketing-led than technically documented
 - Seedance is the main comparison anchor
 - image-to-video and text-to-video are both central to the model narrative
 
@@ -151,7 +150,7 @@ The following topics are relatively stable and better suited for evergreen readi
 
 If you are monitoring the topic over time, these are the surfaces most worth checking:
 
-- the official public repo
+- the public product surface
 - the two Artificial Analysis leaderboard pages
 - the claims ledger in this repository
 - the prompt and failure-case pages in this repository
@@ -187,7 +186,7 @@ This repository standardizes all surfaced user-facing Happy Horse website links 
 
 ### What is Happy Horse?
 
-Based on the current official public repo description, Happy Horse AI is being presented as a text-to-image and image-to-video product with cinematic output claims. See [Verified Facts](./docs/verified-facts.md).
+Based on the current public evidence chain reviewed here, Happy Horse AI is being discussed as a text-to-image and image-to-video product with cinematic output claims. See [Verified Facts](./docs/verified-facts.md).
 
 ### Why is everyone suddenly talking about Happy Horse 1.0?
 
@@ -195,11 +194,11 @@ Because Happy Horse 1.0 combines a polished public product narrative with unusua
 
 ### Is Happy Horse open source?
 
-There is no evidence in the current official public GitHub repo that model weights or inference code have been published. See [Claims Ledger](./docs/claims-ledger.md#release-and-access-claims).
+There is no verified evidence in the public evidence chain reviewed here that model weights or inference code have been published. See [Claims Ledger](./docs/claims-ledger.md#release-and-access-claims).
 
 ### Can I run Happy Horse locally?
 
-Not based on the current official public GitHub repo. There is no publicly exposed weight package or inference package in the reviewed release surface. See [Claims Ledger](./docs/claims-ledger.md#release-and-access-claims).
+Not based on the public evidence chain reviewed here. There is no verified publicly exposed weight package or inference package in the current release surface. See [Claims Ledger](./docs/claims-ledger.md#release-and-access-claims).
 
 ### Is there an API for Happy Horse AI?
 

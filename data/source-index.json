@@ -1,29 +1,5 @@
 [
   {
-    "id": "official_repo",
-    "label": "happyhorseai/happyhorse",
-    "url": "https://github.com/happyhorseai/happyhorse",
-    "type": "official",
-    "reliability": "high",
-    "notes": "Primary reviewed public source for repository state."
-  },
-  {
-    "id": "official_repo_api",
-    "label": "happyhorseai/happyhorse API",
-    "url": "https://api.github.com/repos/happyhorseai/happyhorse",
-    "type": "official",
-    "reliability": "high",
-    "notes": "Used for created_at, description, stars, and repo metadata."
-  },
-  {
-    "id": "official_readme",
-    "label": "Official public README",
-    "url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
-    "type": "official",
-    "reliability": "high",
-    "notes": "Primary reviewed source for current README framing."
-  },
-  {
     "id": "aa_t2v",
     "label": "Artificial Analysis Text to Video leaderboard",
     "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
@@ -40,35 +16,67 @@
     "notes": "Used for time-sensitive image-to-video snapshot values checked on 2026-04-13."
   },
   {
-    "id": "brooks_repo",
-    "label": "brooks376/Happy-Horse-1.0",
-    "url": "https://github.com/brooks376/Happy-Horse-1.0",
-    "type": "community",
+    "id": "aa_x_intro",
+    "label": "Artificial Analysis on X",
+    "url": "https://x.com/ArtificialAnlys/status/2041591989083500933",
+    "type": "social",
     "reliability": "medium",
-    "notes": "Useful public intelligence repo; explicitly unofficial."
+    "notes": "Useful for the public benchmark-facing emergence of the topic."
   },
   {
-    "id": "robert_repo",
-    "label": "robert-2-j/HappyHorse-1.0",
-    "url": "https://github.com/robert-2-j/HappyHorse-1.0",
-    "type": "community",
+    "id": "venturetwins_x",
+    "label": "Justine Moore on X",
+    "url": "https://x.com/venturetwins/status/2041554747086553093",
+    "type": "social",
     "reliability": "medium",
-    "notes": "Useful for evidence hierarchy and timeline framing."
+    "notes": "High-reach amplification of benchmark interpretation."
   },
   {
-    "id": "zerolu_repo",
-    "label": "ZeroLu/awesome-happy-horse",
-    "url": "https://github.com/ZeroLu/awesome-happy-horse",
-    "type": "community",
+    "id": "angrytom_x",
+    "label": "Angry Tom on X",
+    "url": "https://x.com/AngryTomtweets/status/2041640342764843097",
+    "type": "social",
     "reliability": "medium",
-    "notes": "Useful for prompt and sample discovery."
+    "notes": "Important for comparison framing."
   },
   {
-    "id": "evolink_repo",
-    "label": "EvoLinkAI/happyhorse-1.0",
-    "url": "https://github.com/EvoLinkAI/happyhorse-1.0",
-    "type": "community",
+    "id": "happyhorseath_x",
+    "label": "HappyHorseATH on X",
+    "url": "https://x.com/HappyHorseATH",
+    "type": "social",
     "reliability": "medium",
-    "notes": "Useful for signal-tracking and source-map framing."
+    "notes": "Public discussion account around the model."
+  },
+  {
+    "id": "alibaba_x",
+    "label": "Alibaba Group on X",
+    "url": "https://x.com/AlibabaGroup/status/2042462318370701535",
+    "type": "social",
+    "reliability": "medium",
+    "notes": "Relevant to public legitimacy and attribution discussion."
+  },
+  {
+    "id": "reddit_generativeai",
+    "label": "r/generativeAI discussion",
+    "url": "https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/",
+    "type": "social",
+    "reliability": "medium",
+    "notes": "Useful for broader AI-community discussion of the model."
+  },
+  {
+    "id": "reddit_localllama",
+    "label": "r/LocalLLaMA discussion",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/",
+    "type": "social",
+    "reliability": "medium",
+    "notes": "Useful for open-weights speculation and local-run interest."
+  },
+  {
+    "id": "reddit_stablediffusion",
+    "label": "r/StableDiffusion discussion",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/",
+    "type": "social",
+    "reliability": "medium",
+    "notes": "Useful for skeptical comparison discussion."
   }
 ]

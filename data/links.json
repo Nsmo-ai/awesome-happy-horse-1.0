@@ -1,13 +1,5 @@
 [
   {
-    "url": "https://github.com/happyhorseai/happyhorse",
-    "label": "happyhorseai/happyhorse",
-    "kind": "official",
-    "status": "Verified",
-    "last_checked": "2026-04-13",
-    "reason": "Public repository under the happyhorseai organization."
-  },
-  {
     "url": "https://tryhappyhorse.com/",
     "label": "tryhappyhorse.com",
     "kind": "canonical",
@@ -16,43 +8,35 @@
     "reason": "Canonical surfaced Happy Horse product link used by this repository."
   },
   {
-    "url": "https://github.com/brooks376/Happy-Horse-1.0",
-    "label": "brooks376/Happy-Horse-1.0",
-    "kind": "community",
+    "url": "https://x.com/HappyHorseATH",
+    "label": "HappyHorseATH on X",
+    "kind": "social",
     "status": "Verified",
     "last_checked": "2026-04-13",
-    "reason": "Useful unofficial intelligence repo, explicitly labeled unofficial."
+    "reason": "Important public discussion account around the model."
   },
   {
-    "url": "https://github.com/robert-2-j/HappyHorse-1.0",
-    "label": "robert-2-j/HappyHorse-1.0",
-    "kind": "community",
+    "url": "https://x.com/AlibabaGroup/status/2042462318370701535",
+    "label": "Alibaba Group on X",
+    "kind": "social",
     "status": "Verified",
     "last_checked": "2026-04-13",
-    "reason": "Useful unofficial evidence and timeline repo."
+    "reason": "Relevant to public legitimacy and attribution discussion."
   },
   {
-    "url": "https://github.com/ZeroLu/awesome-happy-horse",
-    "label": "ZeroLu/awesome-happy-horse",
-    "kind": "community",
+    "url": "https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/",
+    "label": "r/generativeAI discussion",
+    "kind": "social",
     "status": "Verified",
     "last_checked": "2026-04-13",
-    "reason": "Useful unofficial prompt and sample hub."
+    "reason": "Useful for how benchmark visibility spreads into wider AI discussion."
   },
   {
-    "url": "https://github.com/EvoLinkAI/happyhorse-1.0",
-    "label": "EvoLinkAI/happyhorse-1.0",
-    "kind": "community",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/",
+    "label": "r/LocalLLaMA discussion",
+    "kind": "social",
     "status": "Verified",
     "last_checked": "2026-04-13",
-    "reason": "Useful unofficial signal-tracking repo."
-  },
-  {
-    "url": "https://github.com/happyhorseai/happyhorse",
-    "label": "Official public repo",
-    "kind": "official",
-    "status": "Verified",
-    "last_checked": "2026-04-13",
-    "reason": "Direct public repo used as the main repository-level source."
+    "reason": "Useful for open-weights speculation and local-run questions."
   }
 ]

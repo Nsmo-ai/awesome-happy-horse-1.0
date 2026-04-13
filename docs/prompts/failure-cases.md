@@ -15,22 +15,22 @@ Trust comes from keeping misleading or weak evidence visible.
 
 - **Problem:** Some community framing suggests or implies that model weights or full open-source release are already available.
 - **Why it matters:** Users may waste time searching for code or weights that are not present in the current official public GitHub repo.
-- **Current handling:** Any claim of currently available open weights is downgraded unless directly supported by the current official public repo.
-- **Supporting source:** [brooks376/Happy-Horse-1.0](https://github.com/brooks376/Happy-Horse-1.0)
+- **Current handling:** Any claim of currently available open weights is downgraded unless supported by the current public evidence chain.
+- **Supporting sources:** [@laozhang2579 on X](https://x.com/laozhang2579/status/2041835578921251244), [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
 
 ## 3. Comparison clip ambiguity
 
 - **Problem:** Community comparison narratives can move faster than attribution clarity.
 - **Why it matters:** A strong-looking clip does not prove the label, prompt, or benchmark framing is correct.
 - **Current handling:** Comparison pages in this repo keep an explicit uncertainty section and avoid absolute performance language.
-- **Supporting sources:** [robert-2-j/HappyHorse-1.0](https://github.com/robert-2-j/HappyHorse-1.0), [EvoLinkAI/happyhorse-1.0](https://github.com/EvoLinkAI/happyhorse-1.0)
+- **Supporting sources:** [Angry Tom comparison post on X](https://x.com/AngryTomtweets/status/2041837603100471308), [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
 
 ## 4. README-only authority bias
 
 - **Problem:** A polished README can feel like a product truth source even when it is only a marketing page.
 - **Why it matters:** Readers may assume missing code is hidden rather than absent.
 - **Current handling:** This repo separates `marketing claims` from `release artifacts`.
-- **Supporting source:** [Official public README](https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md)
+- **Supporting source:** [Happy Horse](https://tryhappyhorse.com/)
 
 ## 5. Undated leaderboard quoting
 

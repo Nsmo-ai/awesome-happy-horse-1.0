@@ -1,90 +1,5 @@
 [
   {
-    "id": "public_repo_exists",
-    "claim": "A public GitHub repository for Happy Horse exists.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "release",
-    "sources": [
-      {
-        "label": "happyhorseai/happyhorse",
-        "url": "https://github.com/happyhorseai/happyhorse",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "Directly observable public repository."
-  },
-  {
-    "id": "repo_is_readme_only",
-    "claim": "The current public GitHub repo is effectively README-only at the root.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "release",
-    "sources": [
-      {
-        "label": "Repository contents API",
-        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "As checked on 2026-04-13, the root content exposure is a single README."
-  },
-  {
-    "id": "repo_claims_1080p_video",
-    "claim": "The public repo description claims 1080p cinematic video generation.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "positioning",
-    "sources": [
-      {
-        "label": "GitHub repo metadata",
-        "url": "https://api.github.com/repos/happyhorseai/happyhorse",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "This is a public product-positioning claim, not an independently validated capability claim."
-  },
-  {
-    "id": "repo_claims_free_no_signup",
-    "claim": "The public repo description says HappyHorse AI is free online with no sign up required.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "access",
-    "sources": [
-      {
-        "label": "GitHub repo metadata",
-        "url": "https://api.github.com/repos/happyhorseai/happyhorse",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "Tracked as a current public access claim."
-  },
-  {
-    "id": "repo_links_happyhorse_app",
-    "claim": "The current official public README references the domain happyhorse.app.",
-    "status": "Verified",
-    "confidence": "high",
-    "category": "official-surface",
-    "sources": [
-      {
-        "label": "Official public README",
-        "url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "Tracked as a source fact, not used here as the canonical surfaced product link."
-  },
-  {
     "id": "repo_uses_tryhappyhorse",
     "claim": "This repository uses tryhappyhorse.com as its canonical surfaced Happy Horse website link.",
     "status": "Verified",
@@ -103,59 +18,64 @@
   },
   {
     "id": "weights_available_now",
-    "claim": "Happy Horse model weights are currently available from the official public GitHub repo.",
-    "status": "Outdated",
-    "confidence": "high",
-    "category": "release",
-    "sources": [
-      {
-        "label": "Repository contents API",
-        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "Current reviewed repo structure does not support this claim."
-  },
-  {
-    "id": "inference_code_available_now",
-    "claim": "Inference code is currently exposed in the official public GitHub repo.",
-    "status": "Outdated",
-    "confidence": "high",
-    "category": "release",
-    "sources": [
-      {
-        "label": "Repository contents API",
-        "url": "https://api.github.com/repos/happyhorseai/happyhorse/contents",
-        "type": "official"
-      }
-    ],
-    "first_seen": "2026-04-08",
-    "last_checked": "2026-04-13",
-    "notes": "Not supported by the current official public repo."
-  },
-  {
-    "id": "top_benchmark_narrative",
-    "claim": "HappyHorse-1.0 is repeatedly cited near the top of community benchmark discussions.",
-    "status": "Likely",
+    "claim": "There is verified public evidence that Happy Horse weights are downloadable right now.",
+    "status": "Rumor",
     "confidence": "medium",
-    "category": "benchmark",
+    "category": "release",
     "sources": [
       {
-        "label": "robert-2-j README",
-        "url": "https://github.com/robert-2-j/HappyHorse-1.0",
-        "type": "community"
+        "label": "@laozhang2579 on X",
+        "url": "https://x.com/laozhang2579/status/2041835578921251244",
+        "type": "social"
       },
       {
-        "label": "ZeroLu README",
-        "url": "https://github.com/ZeroLu/awesome-happy-horse",
-        "type": "community"
+        "label": "r/LocalLLaMA discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/",
+        "type": "social"
       }
     ],
-    "first_seen": "2026-04-09",
+    "first_seen": "2026-04-08",
     "last_checked": "2026-04-13",
-    "notes": "Repeated enough to matter, but not independently re-run here."
+    "notes": "Publicly discussed, but not verified by the evidence chain used here."
+  },
+  {
+    "id": "local_run_available_now",
+    "claim": "There is verified public evidence that Happy Horse can be run locally right now.",
+    "status": "Rumor",
+    "confidence": "medium",
+    "category": "release",
+    "sources": [
+      {
+        "label": "r/LocalLLaMA discussion",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/",
+        "type": "social"
+      }
+    ],
+    "first_seen": "2026-04-08",
+    "last_checked": "2026-04-13",
+    "notes": "Strong user interest exists; verification does not."
+  },
+  {
+    "id": "api_direction",
+    "claim": "Public discussion currently points more strongly to future API availability than to confirmed open weights.",
+    "status": "Likely",
+    "confidence": "medium",
+    "category": "access",
+    "sources": [
+      {
+        "label": "HappyHorseATH on X",
+        "url": "https://x.com/HappyHorseATH",
+        "type": "social"
+      },
+      {
+        "label": "Alibaba Group on X",
+        "url": "https://x.com/AlibabaGroup/status/2042462318370701535",
+        "type": "social"
+      }
+    ],
+    "first_seen": "2026-04-13",
+    "last_checked": "2026-04-13",
+    "notes": "Best read as a public direction, not a guarantee."
   },
   {
     "id": "aa_t2v_no_audio_lead",
@@ -189,7 +109,7 @@
     ],
     "first_seen": "2026-04-13",
     "last_checked": "2026-04-13",
-    "notes": "Taken from the FAQ block on the public page."
+    "notes": "Captured from the public FAQ block."
   },
   {
     "id": "aa_i2v_no_audio_lead",
@@ -227,41 +147,51 @@
   },
   {
     "id": "seedance_is_main_comparator",
-    "claim": "Seedance is the main comparison target in the current GitHub discussion.",
+    "claim": "Seedance is the main comparison target in the current public discussion around Happy Horse.",
     "status": "Likely",
     "confidence": "medium",
     "category": "comparison",
     "sources": [
       {
-        "label": "ZeroLu README",
-        "url": "https://github.com/ZeroLu/awesome-happy-horse",
-        "type": "community"
+        "label": "Artificial Analysis on X",
+        "url": "https://x.com/ArtificialAnlys/status/2041591989083500933",
+        "type": "social"
       },
       {
-        "label": "EvoLinkAI README",
-        "url": "https://github.com/EvoLinkAI/happyhorse-1.0",
-        "type": "community"
-      }
-    ],
-    "first_seen": "2026-04-09",
-    "last_checked": "2026-04-13",
-    "notes": "This is a narrative dominance claim, not a performance verdict."
-  },
-  {
-    "id": "already_open_weights",
-    "claim": "Happy Horse is already released as open weights.",
-    "status": "Rumor",
-    "confidence": "medium",
-    "category": "release",
-    "sources": [
+        "label": "Angry Tom on X",
+        "url": "https://x.com/AngryTomtweets/status/2041640342764843097",
+        "type": "social"
+      },
       {
-        "label": "brooks376 README",
-        "url": "https://github.com/brooks376/Happy-Horse-1.0",
-        "type": "community"
+        "label": "GENEL skeptical take on X",
+        "url": "https://x.com/genel_ai/status/2041806001129623577",
+        "type": "social"
       }
     ],
     "first_seen": "2026-04-08",
     "last_checked": "2026-04-13",
-    "notes": "Publicly circulated but not supported by the current official public repo."
+    "notes": "Strong public comparison signal, but not a controlled benchmark by this repository."
+  },
+  {
+    "id": "comparison_label_risk",
+    "claim": "Public comparisons contain mislabeled or disputed clips.",
+    "status": "Likely",
+    "confidence": "medium",
+    "category": "risk",
+    "sources": [
+      {
+        "label": "Brent Lynch on X",
+        "url": "https://x.com/BrentLynch/status/2042252412594135243",
+        "type": "social"
+      },
+      {
+        "label": "Angry Tom comparison post on X",
+        "url": "https://x.com/AngryTomtweets/status/2041837603100471308",
+        "type": "social"
+      }
+    ],
+    "first_seen": "2026-04-09",
+    "last_checked": "2026-04-13",
+    "notes": "Included to prevent overconfidence."
   }
 ]

@@ -9,7 +9,7 @@
       "Useful for lighting and material realism"
     ],
     "status": "successful",
-    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
     "last_checked": "2026-04-13"
   },
   {
@@ -22,20 +22,20 @@
       "Good for multi-actor timing"
     ],
     "status": "successful",
-    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "source_url": "https://x.com/AngryTomtweets/status/2041837603100471308",
     "last_checked": "2026-04-13"
   },
   {
     "id": "product_visual_sequence_template",
     "prompt": "A premium product hero sequence for a modern SaaS landing page: crisp lighting, high contrast, clean background, slow cinematic reveal, subtle camera movement, strong composition, polished materials, emotionally resonant visual tone, optimized for conversion-focused web design.",
     "task_type": "derived-template",
-    "goal": "Translate the official public marketing language into a reusable prompt skeleton.",
+    "goal": "Translate the strongest public product-positioning language into a reusable prompt skeleton.",
     "observations": [
-      "Derived from positioning, not a community-published prompt",
+      "Derived from public product-facing language, not a copied prompt collection",
       "Useful for conversion-oriented visual testing"
     ],
     "status": "mixed",
-    "source_url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+    "source_url": "https://tryhappyhorse.com/",
     "last_checked": "2026-04-13"
   },
   {
@@ -48,7 +48,7 @@
       "Useful for premium product framing"
     ],
     "status": "mixed",
-    "source_url": "https://raw.githubusercontent.com/happyhorseai/happyhorse/main/README.md",
+    "source_url": "https://tryhappyhorse.com/",
     "last_checked": "2026-04-13"
   },
   {
@@ -74,7 +74,7 @@
       "Useful for spotting continuity collapse"
     ],
     "status": "mixed",
-    "source_url": "https://github.com/ZeroLu/awesome-happy-horse",
+    "source_url": "https://x.com/AngryTomtweets/status/2041837603100471308",
     "last_checked": "2026-04-13"
   },
   {
