@@ -10,7 +10,7 @@ English | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국�
 
 The most trustworthy Happy Horse resource hub: verified facts, benchmark snapshots, prompt cases, comparisons, timeline, and official-source tracking.
 
-![Happy Horse benchmark snapshot](./assets/benchmark-snapshot.png)
+![Happy Horse benchmark snapshot](./assets/benchmark-snapshot.svg)
 
 ## What this repository is
 
