@@ -62,13 +62,29 @@ Bu kaynak zincirinde indirilebilir ağırlıkların zaten mevcut olduğuna dair 
 
 Çalıştırılabilir yerel artefaktlara dair doğrulanmış kamuya açık kanıt yok.
 
+### Happy Horse AI için API var mı?
+
+Kamuya açık tartışma, doğrulanmış open weights’ten çok gelecekteki API yönüne işaret ediyor; ancak zamanlama yine de hassas kabul edilmeli.
+
+### Happy Horse ses desteğine sahip mi?
+
+Ses önemlidir çünkü burada incelenen benchmark sayfalarında HappyHorse-1.0’ın güçlü göründüğü `with audio` kategorileri vardır.
+
 ### Güncel benchmark tablosu nasıl?
 
 `2026-04-13` itibarıyla HappyHorse-1.0 birçok kategoride lider, Seedance ise sesli önemli bir kategoriyi koruyor.
 
+### Seedance’den daha mı iyi?
+
+En güvenli cevap ikili değil. HappyHorse-1.0 birçok kategoride lider, ancak `Image to Video (With Audio)` tarafında Seedance önde.
+
 ### Hangi siteyi kullanmalıyım?
 
 Bu depodan çıkış noktası olarak [Happy Horse](https://tryhappyhorse.com/) kullanılabilir.
+
+### Sosyal medyadaki karşılaştırma videolarına güvenmeli miyim?
+
+Otomatik olarak hayır. Yanlış etiketlenmiş klipler, eksik bağlam ve seçici örnekleme hâlâ önemli risklerdir.
 
 ## Çok dilli not
 

@@ -62,13 +62,29 @@ Il n’existe pas de preuve publique vérifiée, dans cette chaîne de sources, 
 
 Il n’existe pas de preuve publique vérifiée d’artefacts locaux exécutables.
 
+### Y a-t-il une API pour Happy Horse AI ?
+
+La discussion publique pointe davantage vers une API future que vers des open weights confirmés, mais tout calendrier doit rester traité comme sensible au temps.
+
+### Happy Horse gère-t-il l’audio ?
+
+L’audio compte parce que les pages de benchmark revues ici incluent des catégories `with audio` où HappyHorse-1.0 apparaît très fort.
+
 ### À quoi ressemble le benchmark actuel ?
 
 Au `2026-04-13`, HappyHorse-1.0 mène plusieurs catégories, tandis que Seedance conserve une catégorie importante avec audio.
 
+### Est-il meilleur que Seedance ?
+
+La réponse la plus sûre n’est pas binaire. HappyHorse-1.0 mène plusieurs catégories, mais Seedance reste devant dans une catégorie audio-enabled importante.
+
 ### Quel site faut-il utiliser ?
 
 Si vous avez besoin d’un point d’entrée depuis ce dépôt, utilisez [Happy Horse](https://tryhappyhorse.com/).
+
+### Peut-on faire confiance aux clips de comparaison sur les réseaux sociaux ?
+
+Pas automatiquement. Les clips mal étiquetés, sortis de leur contexte ou choisis de manière sélective restent un risque réel.
 
 ## Note multilingue
 

@@ -62,13 +62,29 @@
 
 沒有已驗證的本地可運行公開產物。
 
+### Happy Horse AI 有 API 嗎？
+
+公開討論目前更偏向未來 API 方向，而不是已確認的 open weights；但任何時間點仍應視為時間敏感。
+
+### Happy Horse 支援音訊嗎？
+
+音訊很重要，因為這裡使用的 benchmark 頁面中有 `with audio` 類別，而 HappyHorse-1.0 在這些類別裡表現很強。
+
 ### 當前 benchmark 怎麼看？
 
 截至 `2026-04-13`，HappyHorse-1.0 在多個類別中領先，而 Seedance 保持一個重要音訊類別的優勢。
 
+### Happy Horse 比 Seedance 強嗎？
+
+不能用單一 yes / no 回答。HappyHorse-1.0 在多個類別領先，但 `Image to Video (With Audio)` 仍由 Seedance 保持優勢。
+
 ### 我應該先點哪個網站？
 
 如果你需要從這個倉庫出去的入口，可以使用 [Happy Horse](https://tryhappyhorse.com/)。
+
+### 社群上的比較影片可以直接相信嗎？
+
+不建議。誤標、缺少上下文與選擇性展示仍然是重要風險。
 
 ## 多語言說明
 
