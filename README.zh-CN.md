@@ -1,6 +1,6 @@
 # Awesome Happy Horse
 
-[English](README.md) | 简体中文
+[English](README.md) | 简体中文 | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md)
 
 一个围绕 [Happy Horse AI](https://tryhappyhorse.com/) 的公开资料库与情报仓库，重点是把当前公开信息整理成更容易理解和复用的结构。
 
@@ -62,5 +62,8 @@
 
 - 英文 README
 - 简体中文 README
+- 日文 README
+- 韩文 README
+- 西班牙文 README
 
-后续如果继续扩展，多语言优先级建议是日语和韩语。
+更深层的事实文档当前仍以英文为主，避免多语言版本之间出现事实漂移。

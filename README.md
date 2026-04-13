@@ -1,6 +1,6 @@
 # Awesome Happy Horse
 
-English | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md)
 
 [![Last checked](https://img.shields.io/badge/last_checked-2026--04--13-0f172a)](./docs/methodology.md)
 [![Claims tracked](https://img.shields.io/badge/claims_tracked-15-2563eb)](./docs/claims-ledger.md)
@@ -179,9 +179,12 @@ Because the methodology is explicit, the claims are dated, the benchmark values 
 This repository now includes:
 
 - the primary English README
-- a Simplified Chinese README for Chinese-language readers
+- a Simplified Chinese README
+- a Japanese README
+- a Korean README
+- a Spanish README
 
-The current multilingual priority is practical usability rather than wide translation coverage. If this repository keeps growing, the next reasonable additions would be Japanese and Korean, because those languages are common in AI video tool communities and model-comparison audiences.
+The current multilingual strategy is to localize the entry README first, while keeping the deeper evidence documents in English so there is one primary fact base to maintain.
 
 ## Notes for editors
 
