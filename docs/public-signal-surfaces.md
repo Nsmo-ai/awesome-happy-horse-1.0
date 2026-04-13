@@ -6,6 +6,8 @@ This page maps the main public signal layers around Happy Horse and explains how
 
 ![Public signal map](../assets/public-signal-map.svg)
 
+This visual is intentionally styled like a technical `framework + blueprint` infographic: clean zones, directional flow, explicit hierarchy, and restrained color coding. The goal is not decorative illustration, but high-compression structural understanding.
+
 ## Signal Diagram
 
 ```mermaid
