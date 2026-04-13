@@ -1,80 +1,75 @@
 # Awesome Happy Horse
 
-[English](README.md) | [Español](README.es.md) | Português | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md) | [Русский](README.ru.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | Português | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md)
 
-Repositório público de inteligência e recursos sobre [Happy Horse AI](https://tryhappyhorse.com/). O objetivo não é apenas reunir links, mas separar com clareza fatos, sinais, rumores e riscos de interpretação.
+[Happy Horse AI](https://tryhappyhorse.com/) é um repositório de sinais públicos e recursos reutilizáveis. Ele ajuda a separar:
 
-## Por que este repositório importa
+- fatos publicamente sustentados
+- claims prováveis, mas não confirmados
+- rumor
+- narrativas que se espalham rápido, mas não deveriam ser repetidas como verdade fechada
 
-[Happy Horse 1.0](https://tryhappyhorse.com/) ganhou força porque duas narrativas cresceram ao mesmo tempo:
+## Por que este modelo importa
 
-- a narrativa de produto: geração de vídeo com posicionamento cinematográfico
-- a narrativa de benchmark: visibilidade muito forte em rankings públicos
-
-Quando isso acontece, a curiosidade cresce mais rápido do que a clareza oficial.
+[Happy Horse 1.0](https://tryhappyhorse.com/) ganhou visibilidade porque a camada de benchmark e a camada de amplificação social cresceram ao mesmo tempo.
 
 ## O que aconteceu até aqui
 
-1. `2026-04-08`
-   - O repositório público [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) aparece no GitHub.
-   - O README público inicial funciona como página de produto, não como release técnico.
-
-2. `2026-04-08` a `2026-04-09`
-   - Repositórios comunitários expandem o tema em várias direções: prompts, benchmarks, rumor tracking e source mapping.
-
-3. `2026-04-13`
-   - As páginas públicas de benchmark mostram [Happy Horse 1.0](https://tryhappyhorse.com/) em posições muito fortes em várias categorias.
-   - Ao mesmo tempo, o repositório oficial público ainda não expõe pesos nem código de inferência.
+1. Artificial Analysis tornou HappyHorse-1.0 um tema visível de benchmark.
+2. O X ampliou a narrativa de benchmark e os enquadramentos de comparação.
+3. O Reddit adicionou ceticismo, expectativa por open weights e perguntas de confiança.
 
 ## Estado atual
 
-- **[Verified]** Existe um repositório público chamado [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse).
-- **[Verified]** A descrição pública o apresenta como um produto de `1080p cinematic video` com `advanced motion synthesis`.
-- **[Verified]** O README atual é mais uma página de marketing do que uma publicação técnica.
-- **[Verified]** Em `2026-04-13`, HappyHorse-1.0 lidera `Text to Video (No Audio)` e `Image to Video (No Audio)` nas páginas públicas revisadas aqui.
-- **[Verified]** Em `Text to Video (With Audio)` ele também aparece na liderança.
-- **[Verified]** Em `Image to Video (With Audio)`, Seedance segue na frente e HappyHorse-1.0 fica em segundo.
-- **[Rumor]** Não há evidência oficial pública de que open weights já tenham sido publicados.
+- **[Verified]** HappyHorse-1.0 aparece muito alto em várias categorias públicas.
+- **[Verified]** Lidera `Text to Video (No Audio)` e `Image to Video (No Audio)`.
+- **[Verified]** Também lidera `Text to Video (With Audio)`.
+- **[Verified]** Seedance segue à frente em `Image to Video (With Audio)`.
+- **[Rumor]** A disponibilidade de open weights ainda não está verificada por esta cadeia de evidências.
+
+## Latest 24h / Current Watchlist
+
+- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
+- [HappyHorseATH on X](https://x.com/HappyHorseATH)
+- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
+- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
+- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
+- [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
 
 ## Navegação rápida
 
-| Seção | Documento | Uso principal |
-| --- | --- | --- |
-| Base factual | [Verified Facts](./docs/verified-facts.md) | Ler apenas fatos diretamente sustentados |
-| Registro de claims | [Claims Ledger](./docs/claims-ledger.md) | Ver status, confiança e fontes |
-| Linha do tempo | [Timeline](./docs/timeline.md) | Entender como o tema ganhou tração |
-| Snapshot de benchmark | [Benchmarks](./docs/benchmarks.md) | Consultar Elo, rank e samples com data |
-| Mapa de sinais | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | Entender a relação entre benchmark, repo oficial, comunidade e claims de sites |
-| Comparação principal | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | Ler o head-to-head mais relevante |
-| Casos de prompt | [Prompt Library](./docs/prompts/prompt-library.md) | Saber o que testar |
-| Casos de falha | [Failure Cases](./docs/prompts/failure-cases.md) | Ver onde é mais fácil se enganar |
+- [Verified Facts](./docs/verified-facts.md)
+- [Claims Ledger](./docs/claims-ledger.md)
+- [Timeline](./docs/timeline.md)
+- [Benchmarks](./docs/benchmarks.md)
+- [Public Signal Surfaces](./docs/public-signal-surfaces.md)
+- [Official Links and Fakes](./docs/official-links-and-fakes.md)
+- [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md)
+- [Prompt Library](./docs/prompts/prompt-library.md)
+- [Failure Cases](./docs/prompts/failure-cases.md)
 
 ## FAQ
 
 ### O que é Happy Horse?
 
-Com base na descrição pública atual, [Happy Horse AI](https://tryhappyhorse.com/) é apresentado como um produto de text-to-video e image-to-video com posicionamento cinematográfico.
+[Happy Horse AI](https://tryhappyhorse.com/) é discutido como um modelo cinematográfico de text-to-video e image-to-video.
 
 ### Happy Horse é open source?
 
-Não há evidência no repositório público atual de pesos ou código de inferência publicados. Consulte [Claims Ledger](./docs/claims-ledger.md).
+Não há evidência pública verificada, nesta cadeia de fontes, de que pesos baixáveis já estejam disponíveis.
 
 ### É possível rodar Happy Horse localmente?
 
-Com a informação pública atual, isso não pode ser afirmado. Não aparece um pacote público de execução local.
+Não há evidência pública verificada de artefatos locais executáveis.
 
 ### Como está o benchmark?
 
-Em `2026-04-13`, [Happy Horse 1.0](https://tryhappyhorse.com/) aparece muito alto em várias categorias públicas da Artificial Analysis. Esses dados devem ser lidos como snapshots datados. Consulte [Benchmarks](./docs/benchmarks.md).
-
-### É melhor que Seedance?
-
-A resposta mais segura não é binária. [Happy Horse 1.0](https://tryhappyhorse.com/) lidera várias categorias, mas Seedance ainda lidera `Image to Video (With Audio)`. Consulte [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md).
+Em `2026-04-13`, HappyHorse-1.0 lidera várias categorias e Seedance mantém uma categoria importante com áudio.
 
 ### Que site devo usar?
 
-Este repositório unifica o link principal voltado ao usuário em [Happy Horse](https://tryhappyhorse.com/). Outros domínios são tratados apenas como contexto analítico.
+Se você precisa de um ponto de entrada a partir deste repositório, use [Happy Horse](https://tryhappyhorse.com/).
 
 ## Nota multilíngue
 
-Este repositório já oferece README em inglês, chinês simplificado, japonês, coreano, espanhol, português, alemão, francês, turco, chinês tradicional e russo. Os documentos de evidência profunda continuam sendo mantidos principalmente em inglês.
+Este repositório já oferece README em inglês, chinês simplificado, chinês tradicional, japonês, coreano, espanhol, português, alemão, francês, turco e russo.
