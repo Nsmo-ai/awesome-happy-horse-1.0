@@ -4,6 +4,43 @@ Last checked: `2026-04-13`
 
 This page maps the main public signal layers around Happy Horse and explains how they relate to each other.
 
+## Signal Diagram
+
+```mermaid
+flowchart TD
+    A["Official Repo Surface
+    repo / README / exposed files"] --> B["Public Product Narrative"]
+    C["Benchmark Surface
+    leaderboards / Elo / samples"] --> D["Performance Narrative"]
+    E["Community GitHub Surface
+    prompt hubs / rumor maps / source trackers"] --> F["Narrative Amplification"]
+    G["Site-Claim Surface
+    domains / trial links / 'official' site claims"] --> H["Access Confusion"]
+
+    B --> I["Reader Interpretation"]
+    D --> I
+    F --> I
+    H --> I
+
+    I --> J["Questions
+    Is it open source?
+    Which site is real?
+    Is it better than Seedance?
+    Can I run it locally?"]
+
+    K["This Repository"] --> L["Verified Facts"]
+    K --> M["Claims Ledger"]
+    K --> N["Benchmarks"]
+    K --> O["Official Links and Fakes"]
+    K --> P["Failure Cases"]
+
+    L --> I
+    M --> I
+    N --> I
+    O --> I
+    P --> I
+```
+
 ## The Four Signal Layers
 
 | Layer | What it contains | Strength | Main risk |
@@ -104,6 +141,38 @@ That is why this repository separates:
 - `what is visible`
 - `what is inferred`
 - `what is still rumor`
+
+## Monitoring Priority
+
+If you only have time to check a few things, check them in this order:
+
+1. **Official repo surface**
+   - Did the repo structure change?
+   - Were weights or inference files added?
+   - Did the repo description or linked site change?
+
+2. **Benchmark surface**
+   - Did rank, Elo, or sample counts move?
+   - Did category leadership change?
+   - Did API status language change?
+
+3. **Site-claim surface**
+   - Is a new domain being promoted as official?
+   - Is the currently visible site still aligned with the official repo surface?
+
+4. **Community GitHub surface**
+   - Which new claims are spreading?
+   - Which comparison frame is becoming dominant?
+   - Are there new prompt patterns worth preserving?
+
+## What this page is for
+
+Use this page when a reader asks:
+
+- “why are the signals so contradictory?”
+- “which layer should I trust for this question?”
+- “why do benchmark wins not automatically prove release clarity?”
+- “why do community repos feel more complete than the official repo?”
 
 ## Which layer to trust for which question
 

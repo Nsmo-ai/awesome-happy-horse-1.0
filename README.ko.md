@@ -52,6 +52,31 @@
 | 비교 읽기 | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | 핵심 비교 구도 해석 |
 | prompt 사례 | [Prompt Library](./docs/prompts/prompt-library.md) | 무엇을 어떻게 테스트할지 확인 |
 | failure 사례 | [Failure Cases](./docs/prompts/failure-cases.md) | 오해하기 쉬운 지점 확인 |
+| 신호 지도 | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | benchmark, 공식 repo, 커뮤니티 repo, 사이트 주장 간 관계 파악 |
+
+## 공개 신호는 어디서 오는가
+
+현재 공개 신호는 네 개 층으로 읽는 것이 가장 안전합니다.
+
+1. `공식 repo 층`
+   - 지금 실제로 무엇이 공개되었는가
+
+2. `benchmark 층`
+   - Elo, rank, sample 수, with-audio / no-audio 구분
+
+3. `커뮤니티 GitHub 층`
+   - prompt, comparison, rumor, source tracking 이 어떻게 증폭되는가
+
+4. `사이트 주장 층`
+   - 어떤 도메인이 안전한 진입점이고, 어떤 페이지가 단지 SEO 페이지인지
+
+권장 읽기:
+
+- [Verified Facts](./docs/verified-facts.md)
+- [Benchmarks](./docs/benchmarks.md)
+- [Claims Ledger](./docs/claims-ledger.md)
+- [Official Links and Fakes](./docs/official-links-and-fakes.md)
+- [Public Signal Surfaces](./docs/public-signal-surfaces.md)
 
 ## FAQ
 
@@ -70,6 +95,30 @@
 ### Happy Horse 의 benchmark 상태는 어떤가요?
 
 `2026-04-13` 기준, [Happy Horse 1.0](https://tryhappyhorse.com/) 은 여러 Artificial Analysis 랭킹에서 매우 강한 위치에 있습니다. 다만 이는 날짜가 붙은 snapshot 입니다. 자세한 내용은 [Benchmarks](./docs/benchmarks.md) 를 참고하세요.
+
+### Happy Horse 가 Seedance 보다 더 강한가요?
+
+단순히 yes / no 로 답하기는 어렵습니다. `2026-04-13` 기준 여러 카테고리에서 Happy Horse 1.0 이 강하지만, `Image to Video (With Audio)` 에서는 Seedance 가 여전히 앞섭니다. 자세한 내용은 [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) 와 [Benchmarks](./docs/benchmarks.md) 를 참고하세요.
+
+### Seedance 외에 누구와 비교되나요?
+
+현재 중요한 비교 앵커는 Seedance, Kling, PixVerse 입니다. 이 모델들이 benchmark 논의의 핵심 비교축 역할을 합니다.
+
+### 어떤 prompt 부터 테스트하는 것이 좋나요?
+
+이 저장소는 다음 관점을 우선 테스트하는 것을 권장합니다.
+
+- cinematic environment
+- multi-beat continuity
+- product framing
+- direct-to-camera speech
+- image-to-video identity retention
+
+자세한 내용은 [Prompt Library](./docs/prompts/prompt-library.md) 를 참고하세요.
+
+### 소셜 미디어 비교 영상은 그대로 믿어도 되나요?
+
+권장하지 않습니다. 공개 비교 영상은 mislabeled, 문맥 손실, 선택적 편집 문제를 가질 수 있습니다. 자세한 내용은 [Failure Cases](./docs/prompts/failure-cases.md) 를 참고하세요.
 
 ### 어떤 사이트를 먼저 봐야 하나요?
 

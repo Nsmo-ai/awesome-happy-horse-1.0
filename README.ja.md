@@ -55,6 +55,31 @@
 | 比較読解 | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | もっとも重要な head-to-head を読む |
 | Prompt ケース | [Prompt Library](./docs/prompts/prompt-library.md) | 何をどう試すかを見る |
 | Failure Cases | [Failure Cases](./docs/prompts/failure-cases.md) | どこで誤解しやすいかを見る |
+| シグナル地図 | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | benchmark、公式 repo、コミュニティ repo、サイト主張の関係を見る |
+
+## 公開シグナルはどこから来るのか
+
+現在の公開シグナルは、大きく四つの層で読むのが安全です。
+
+1. `公式 repo 層`
+   - 公式がいま何を公開しているか
+
+2. `benchmark 層`
+   - Elo、rank、sample 数、with-audio / no-audio の区別
+
+3. `コミュニティ GitHub 層`
+   - prompt、comparison、rumor、source tracking がどのように拡散しているか
+
+4. `サイト主張層`
+   - どのドメインが安全な入口で、どのページが単なる SEO なのか
+
+対応する読み先:
+
+- [Verified Facts](./docs/verified-facts.md)
+- [Benchmarks](./docs/benchmarks.md)
+- [Claims Ledger](./docs/claims-ledger.md)
+- [Official Links and Fakes](./docs/official-links-and-fakes.md)
+- [Public Signal Surfaces](./docs/public-signal-surfaces.md)
 
 ## FAQ
 
@@ -73,6 +98,30 @@
 ### Happy Horse の benchmark 状況は？
 
 `2026-04-13` 時点で、[Happy Horse 1.0](https://tryhappyhorse.com/) は複数の Artificial Analysis ランキングで非常に高い位置にあります。ただし、これらは日付つきの snapshot です。詳しくは [Benchmarks](./docs/benchmarks.md) を参照してください。
+
+### Happy Horse は Seedance より強いのですか？
+
+単純な yes / no では答えにくいです。`2026-04-13` 時点では複数カテゴリで Happy Horse 1.0 が強い一方、`Image to Video (With Audio)` では Seedance が先頭です。詳しくは [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) と [Benchmarks](./docs/benchmarks.md) を参照してください。
+
+### Happy Horse 以外に誰と比べられていますか？
+
+いま重要な比較相手は Seedance、Kling、PixVerse です。これらは benchmark 議論の主要アンカーになっています。
+
+### どの prompt から試すのが良いですか？
+
+このリポジトリでは、次の観点を優先して試すことを勧めています。
+
+- cinematic environment
+- multi-beat continuity
+- product framing
+- direct-to-camera speech
+- image-to-video identity retention
+
+詳しくは [Prompt Library](./docs/prompts/prompt-library.md) を参照してください。
+
+### SNS 上の比較動画はそのまま信じてよいですか？
+
+おすすめしません。公開比較動画は mislabeled、文脈欠落、選択的編集の問題を抱えることがあります。詳しくは [Failure Cases](./docs/prompts/failure-cases.md) を参照してください。
 
 ### どのサイトを見ればいいですか？
 
