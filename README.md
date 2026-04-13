@@ -1,6 +1,6 @@
 # Awesome Happy Horse
 
-English | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md)
+English | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md) | [Русский](README.ru.md)
 
 [![Last checked](https://img.shields.io/badge/last_checked-2026--04--13-0f172a)](./docs/methodology.md)
 [![Claims tracked](https://img.shields.io/badge/claims_tracked-15-2563eb)](./docs/claims-ledger.md)
@@ -55,6 +55,20 @@ The short version is: Happy Horse AI already has enough benchmark gravity to mat
 - **[Verified]** As checked on `2026-04-13`, `Dreamina Seedance 2.0 720p` leads `Image to Video (With Audio)` while `HappyHorse-1.0` is second.
 - **[Rumor]** Claims that Happy Horse 1.0 is already released as open weights are not supported by the current official public GitHub repo.
 
+## Table of Contents
+
+- [What this repository is](#what-this-repository-is)
+- [Why this model matters](#why-this-model-matters)
+- [The story so far](#the-story-so-far)
+- [Latest Status](#latest-status)
+- [Quick Navigation](#quick-navigation)
+- [Source Map](#source-map)
+- [Public Signal Surfaces](#public-signal-surfaces)
+- [How to use this repository](#how-to-use-this-repository)
+- [Search-Intent FAQ](#search-intent-faq)
+- [Multilingual Consideration](#multilingual-consideration)
+- [Contributing](#contributing)
+
 ## Quick Navigation
 
 Use the repository like a decision tool, not like a blog post.
@@ -64,6 +78,7 @@ Use the repository like a decision tool, not like a blog post.
 | Fact Base | [Verified Facts](./docs/verified-facts.md) | Clean list of directly supported facts | Fast orientation |
 | Claim Tracker | [Claims Ledger](./docs/claims-ledger.md) | Claim-by-claim status, confidence, and sources | Research and citation |
 | Storyline | [Timeline](./docs/timeline.md) | The sequence of how Happy Horse became a public topic | Context and chronology |
+| Localized Timelines | [localized-timelines/](./localized-timelines/) | Short timeline summaries for selected languages | Multilingual orientation |
 | Benchmark Snapshot | [Benchmarks](./docs/benchmarks.md) | Dated leaderboard snapshots with Elo and sample counts | Performance tracking |
 | Site Safety | [Official Links and Fakes](./docs/official-links-and-fakes.md) | Canonical surfaced link plus caution around noisy domain claims | Navigation and safety |
 | Comparison Read | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | Current public reading of the most important head-to-head comparison | Competitive context |
@@ -81,6 +96,65 @@ If you want to know where the narrative comes from, these are the main evidence 
 | Live benchmark pages | Time-sensitive Elo, ranks, sample counts, with-audio vs no-audio distinctions | [Benchmarks](./docs/benchmarks.md) |
 | Community intelligence repos | Narrative spread, comparison framing, prompt circulation, rumor pressure | [Claims Ledger](./docs/claims-ledger.md) |
 | Failure and caution context | Mislabeling risk, fake-link inflation, overclaiming risk | [Failure Cases](./docs/prompts/failure-cases.md) |
+
+### Key sources in the current public narrative
+
+#### Official public surfaces
+
+- [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse)
+- [Happy Horse](https://tryhappyhorse.com/)
+
+#### Benchmark surfaces
+
+- [Artificial Analysis Text to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/text-to-video)
+- [Artificial Analysis Image to Video leaderboard](https://artificialanalysis.ai/video/leaderboard/image-to-video)
+
+#### Community GitHub surfaces
+
+- [`brooks376/Happy-Horse-1.0`](https://github.com/brooks376/Happy-Horse-1.0)
+- [`robert-2-j/HappyHorse-1.0`](https://github.com/robert-2-j/HappyHorse-1.0)
+- [`ZeroLu/awesome-happy-horse`](https://github.com/ZeroLu/awesome-happy-horse)
+- [`EvoLinkAI/happyhorse-1.0`](https://github.com/EvoLinkAI/happyhorse-1.0)
+
+## Public Signal Surfaces
+
+This repository is strongest when read as a bridge between three public layers:
+
+- `official product layer`
+  - what the current public repo and product-facing surfaces are actually saying
+- `benchmark layer`
+  - what the current leaderboard pages show, with dates attached
+- `community amplification layer`
+  - how GitHub SEO repos and public discussion are interpreting the model
+
+### What changes fastest
+
+The following topics are the most time-sensitive and should always be re-checked before being repeated elsewhere:
+
+- benchmark rank and Elo
+- API availability language
+- “open weights” speculation
+- attribution claims
+- which site or trial link is being presented as official
+
+### What changes slowest
+
+The following topics are relatively stable and better suited for evergreen reading:
+
+- the current official repo is lightweight
+- the repo is marketing-led rather than code-led
+- Seedance is the main comparison anchor
+- image-to-video and text-to-video are both central to the model narrative
+
+## Ecosystem Surfaces Worth Watching
+
+If you are monitoring the topic over time, these are the surfaces most worth checking:
+
+- the official public repo
+- the two Artificial Analysis leaderboard pages
+- the claims ledger in this repository
+- the prompt and failure-case pages in this repository
+- the strongest community GitHub intelligence repos listed above
 
 ## How to use this repository
 
@@ -183,6 +257,12 @@ This repository now includes:
 - a Japanese README
 - a Korean README
 - a Spanish README
+- a Portuguese README
+- a German README
+- a French README
+- a Turkish README
+- a Traditional Chinese README
+- a Russian README
 
 The current multilingual strategy is to localize the entry README first, while keeping the deeper evidence documents in English so there is one primary fact base to maintain.
 
