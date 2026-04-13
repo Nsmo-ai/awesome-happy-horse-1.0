@@ -2,79 +2,74 @@
 
 [English](README.md) | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | Türkçe | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md) | [Русский](README.ru.md)
 
-[Happy Horse AI](https://tryhappyhorse.com/) etrafındaki açık bilgileri, sinyalleri ve yeniden kullanılabilir kaynakları yapılandıran herkese açık bir depo. Amaç yalnızca bağlantı toplamak değil; gerçekleri, güçlü sinyalleri, rumor katmanını ve yorum risklerini ayırabilmek.
+[Happy Horse AI](https://tryhappyhorse.com/) burada herkese açık sinyaller ve yeniden kullanılabilir kaynaklarla ele alınıyor. Amaç şunları ayırmayı kolaylaştırmak:
 
-## Neden bu depo önemli
+- kamuya açık şekilde desteklenen gerçekler
+- olası ama doğrulanmamış iddialar
+- rumor
+- hızla yayılan ancak kesin gerçek gibi tekrar edilmemesi gereken anlatılar
 
-[Happy Horse 1.0](https://tryhappyhorse.com/) aynı anda iki farklı görünürlük akışından güç aldı:
+## Bu model neden önemli
 
-- ürün anlatısı: sinematik video üretimi odaklı güçlü bir konumlandırma
-- benchmark anlatısı: herkese açık sıralamalarda çok güçlü görünürlük
+[Happy Horse 1.0](https://tryhappyhorse.com/) benchmark görünürlüğü ve sosyal amplifikasyon aynı anda büyüdüğü için hızla görünür hale geldi.
 
-Bu nedenle sorular, resmî netlikten daha hızlı büyüyor.
+## Ne oldu
 
-## Şimdiye kadar ne oldu
-
-1. `2026-04-08`
-   - Herkese açık [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) deposu GitHub’da göründü.
-   - İlk kamuya açık README daha çok ürün tanıtımıydı, teknik yayın değildi.
-
-2. `2026-04-08` ile `2026-04-09`
-   - Topluluk depoları prompt, benchmark, rumor tracking ve source mapping üzerinden konuyu hızla büyüttü.
-
-3. `2026-04-13`
-   - Açık benchmark sayfaları [Happy Horse 1.0](https://tryhappyhorse.com/) modelini birçok kategoride çok güçlü gösteriyor.
-   - Buna karşılık resmî GitHub yüzeyi hâlâ ağırlık veya inference kodu göstermiyor.
+1. Artificial Analysis, HappyHorse-1.0’ı görünür bir benchmark konusu yaptı.
+2. X, benchmark anlatısını ve karşılaştırma çerçevesini büyüttü.
+3. Reddit, şüphecilik, open weights beklentisi ve güven sorularını ekledi.
 
 ## Güncel durum
 
-- **[Verified]** Herkese açık [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) deposu mevcut.
-- **[Verified]** Açık açıklama onu `1080p cinematic video` ve `advanced motion synthesis` vurgulayan bir ürün olarak konumlandırıyor.
-- **[Verified]** Mevcut README teknik yayından çok pazarlama odaklı bir sayfa.
-- **[Verified]** `2026-04-13` itibarıyla HappyHorse-1.0, `Text to Video (No Audio)` ve `Image to Video (No Audio)` kategorilerinde lider.
-- **[Verified]** `Text to Video (With Audio)` kategorisinde de çok güçlü bir konumda.
-- **[Verified]** `Image to Video (With Audio)` tarafında Seedance önde, HappyHorse-1.0 ikinci.
-- **[Rumor]** Open weights’in yayımlandığını gösteren resmî kamuya açık kanıt yok.
+- **[Verified]** HappyHorse-1.0 birçok kamuya açık kategoride çok güçlü konumda.
+- **[Verified]** `Text to Video (No Audio)` ve `Image to Video (No Audio)` kategorilerinde lider.
+- **[Verified]** `Text to Video (With Audio)` kategorisinde de lider.
+- **[Verified]** `Image to Video (With Audio)` tarafında Seedance önde.
+- **[Rumor]** Open weights erişimi bu kanıt zinciriyle doğrulanmış değil.
+
+## Latest 24h / Current Watchlist
+
+- [Artificial Analysis on X](https://x.com/ArtificialAnlys/status/2041591989083500933)
+- [HappyHorseATH on X](https://x.com/HappyHorseATH)
+- [Alibaba Group on X](https://x.com/AlibabaGroup/status/2042462318370701535)
+- [r/generativeAI discussion](https://www.reddit.com/r/generativeAI/comments/1sflqh2/a_new_anonymous_video_model_just_took_1_on/)
+- [r/LocalLLaMA discussion](https://www.reddit.com/r/LocalLLaMA/comments/1sfo1dv/happyhorse_maybe_will_be_open_weights_soon_it/)
+- [Brent Lynch on X](https://x.com/BrentLynch/status/2042252412594135243)
 
 ## Hızlı gezinme
 
-| Bölüm | Belge | Ana kullanım |
-| --- | --- | --- |
-| Gerçek katmanı | [Verified Facts](./docs/verified-facts.md) | Doğrudan desteklenen gerçekleri okumak |
-| Claim kaydı | [Claims Ledger](./docs/claims-ledger.md) | Claim durumu, güven ve kaynak görmek |
-| Zaman çizelgesi | [Timeline](./docs/timeline.md) | Konunun nasıl büyüdüğünü anlamak |
-| Benchmark snapshot | [Benchmarks](./docs/benchmarks.md) | Tarihli Elo, rank ve sample okumak |
-| Sinyal haritası | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | Benchmark, resmî repo, topluluk repo ve site iddiaları ilişkisini anlamak |
-| Karşılaştırma okuması | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | En önemli head-to-head çerçevesini yorumlamak |
-| Prompt örnekleri | [Prompt Library](./docs/prompts/prompt-library.md) | Neyi test etmen gerektiğini görmek |
-| Failure case | [Failure Cases](./docs/prompts/failure-cases.md) | Nerede yanılmanın kolay olduğunu görmek |
+- [Verified Facts](./docs/verified-facts.md)
+- [Claims Ledger](./docs/claims-ledger.md)
+- [Timeline](./docs/timeline.md)
+- [Benchmarks](./docs/benchmarks.md)
+- [Public Signal Surfaces](./docs/public-signal-surfaces.md)
+- [Official Links and Fakes](./docs/official-links-and-fakes.md)
+- [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md)
+- [Prompt Library](./docs/prompts/prompt-library.md)
+- [Failure Cases](./docs/prompts/failure-cases.md)
 
 ## FAQ
 
 ### Happy Horse nedir?
 
-Mevcut kamuya açık ürün açıklamasına göre [Happy Horse AI](https://tryhappyhorse.com/) sinematik çıktıyı öne çıkaran bir text-to-video ve image-to-video ürünüdür.
+[Happy Horse AI](https://tryhappyhorse.com/) sinematik bir text-to-video ve image-to-video modeli olarak tartışılıyor.
 
 ### Happy Horse açık kaynak mı?
 
-Mevcut kamuya açık GitHub deposunda yayımlanmış ağırlık veya inference kodu görünmüyor. Ayrıntı için [Claims Ledger](./docs/claims-ledger.md).
+Bu kaynak zincirinde indirilebilir ağırlıkların zaten mevcut olduğuna dair doğrulanmış kamuya açık kanıt yok.
 
-### Happy Horse yerelde çalıştırılabilir mi?
+### Yerelde çalıştırılabilir mi?
 
-Mevcut açık bilgiyle bunu doğrulamak mümkün değil. Herkese açık yerel çalışma paketi görünmüyor.
+Çalıştırılabilir yerel artefaktlara dair doğrulanmış kamuya açık kanıt yok.
 
-### Benchmark durumu nasıl?
+### Güncel benchmark tablosu nasıl?
 
-`2026-04-13` itibarıyla [Happy Horse 1.0](https://tryhappyhorse.com/) Artificial Analysis sayfalarında birçok kategoride çok güçlü görünüyor. Bu veriler tarihli snapshot olarak okunmalı. Ayrıntı için [Benchmarks](./docs/benchmarks.md).
-
-### Seedance’den daha mı iyi?
-
-En güvenli cevap ikili değil. [Happy Horse 1.0](https://tryhappyhorse.com/) birçok kategoride lider, ancak `Image to Video (With Audio)` tarafında Seedance önde. Ayrıntı için [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md).
+`2026-04-13` itibarıyla HappyHorse-1.0 birçok kategoride lider, Seedance ise sesli önemli bir kategoriyi koruyor.
 
 ### Hangi siteyi kullanmalıyım?
 
-Bu depo kullanıcıya dönük ana girişi [Happy Horse](https://tryhappyhorse.com/) olarak birleştirir. Diğer alan adları yalnızca analitik bağlam olarak ele alınır.
+Bu depodan çıkış noktası olarak [Happy Horse](https://tryhappyhorse.com/) kullanılabilir.
 
 ## Çok dilli not
 
-Bu depo artık İngilizce, basitleştirilmiş Çince, Japonca, Korece, İspanyolca, Portekizce, Almanca, Fransızca, Türkçe, geleneksel Çince ve Rusça README’ler sunuyor. Daha derin kanıt belgeleri şimdilik ağırlıklı olarak İngilizce tutuluyor.
+Bu depo İngilizce, basitleştirilmiş Çince, geleneksel Çince, Japonca, Korece, İspanyolca, Portekizce, Almanca, Fransızca, Türkçe ve Rusça README sunuyor.
