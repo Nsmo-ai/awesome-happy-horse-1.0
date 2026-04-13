@@ -1,57 +1,88 @@
 # Awesome Happy Horse
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | Español | [Português](README.pt.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md)
 
-Un repositorio público de inteligencia y recursos sobre [Happy Horse AI](https://tryhappyhorse.com/), organizado para que la información sea más verificable, más clara y más reutilizable.
+Repositorio público de inteligencia y recursos sobre [Happy Horse AI](https://tryhappyhorse.com/). No intenta solo acumular enlaces: intenta separar con claridad hechos, señales, rumores y riesgos de interpretación.
 
-## Qué ofrece este repositorio
+## Por qué este repositorio importa
 
-- Hechos confirmados que hoy sí pueden sostenerse
-- Registro de claims con estados `Verified / Likely / Rumor / Outdated`
-- Línea temporal de por qué [Happy Horse 1.0](https://tryhappyhorse.com/) se volvió visible tan rápido
-- Lectura práctica del benchmark público actual
-- Casos de prompt útiles para evaluar el modelo
-- Casos de fallo y confusión que conviene evitar
+[Happy Horse 1.0](https://tryhappyhorse.com/) se volvió visible porque dos narrativas explotaron al mismo tiempo:
 
-## Orden recomendado de lectura
+- la narrativa de producto: video generation con posicionamiento cinematográfico
+- la narrativa de benchmark: una presencia muy fuerte en rankings públicos
 
-1. [Verified Facts](./docs/verified-facts.md)
-2. [Timeline](./docs/timeline.md)
-3. [Claims Ledger](./docs/claims-ledger.md)
-4. [Benchmarks](./docs/benchmarks.md)
-5. [Prompt Library](./docs/prompts/prompt-library.md)
-6. [Failure Cases](./docs/prompts/failure-cases.md)
+Cuando eso ocurre, las preguntas llegan antes que la claridad oficial:
 
-## Puntos clave actuales
+- ¿Está ya open source?
+- ¿Se puede correr localmente?
+- ¿Tiene API?
+- ¿Es realmente mejor que Seedance?
+- ¿Qué sitio conviene abrir?
 
-- A fecha de `2026-04-13`, el repositorio público [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) existe, pero su superficie pública sigue siendo muy ligera.
-- El README público actual funciona más como una página de posicionamiento de producto que como una publicación de código o pesos.
-- A fecha de `2026-04-13`, las páginas públicas de Artificial Analysis sitúan a [Happy Horse 1.0](https://tryhappyhorse.com/) muy arriba en varias categorías de vídeo.
-- No hay evidencia pública de que el repositorio oficial haya publicado pesos o código de inferencia.
-- Este repositorio unifica el enlace principal orientado a usuarios hacia [Happy Horse](https://tryhappyhorse.com/).
+Este repositorio existe para responder esas preguntas con más estructura.
 
-## Preguntas frecuentes
+## Qué ha pasado hasta ahora
+
+1. `2026-04-08`
+   - Aparece el repositorio público [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse) en GitHub.
+   - El README público se presenta como una página de producto, no como un release técnico.
+
+2. `2026-04-08` a `2026-04-09`
+   - Repositorios comunitarios amplían el tema en varias direcciones: prompts, benchmarks, rumor tracking y source mapping.
+
+3. `2026-04-13`
+   - Las páginas públicas de benchmark muestran a [Happy Horse 1.0](https://tryhappyhorse.com/) en posiciones muy fuertes en varias categorías.
+   - A la vez, el repositorio oficial público sigue sin exponer pesos ni código de inferencia.
+
+## Estado actual
+
+- **[Verified]** Existe un repositorio público llamado [`happyhorseai/happyhorse`](https://github.com/happyhorseai/happyhorse).
+- **[Verified]** La descripción pública lo presenta como un producto de `1080p cinematic video` con `advanced motion synthesis`.
+- **[Verified]** El README público actual es más una página de marketing que una publicación técnica.
+- **[Verified]** A fecha de `2026-04-13`, HappyHorse-1.0 lidera `Text to Video (No Audio)` y `Image to Video (No Audio)` en las páginas públicas revisadas aquí.
+- **[Verified]** A fecha de `2026-04-13`, también aparece líder en `Text to Video (With Audio)`.
+- **[Verified]** En `Image to Video (With Audio)`, Seedance sigue por delante y HappyHorse-1.0 queda segundo.
+- **[Rumor]** No hay evidencia oficial pública de que ya existan open weights publicados.
+
+## Navegación rápida
+
+| Sección | Documento | Uso principal |
+| --- | --- | --- |
+| Base factual | [Verified Facts](./docs/verified-facts.md) | Leer solo hechos directamente sostenibles |
+| Registro de claims | [Claims Ledger](./docs/claims-ledger.md) | Ver estados, confianza y fuentes |
+| Línea temporal | [Timeline](./docs/timeline.md) | Entender cómo creció el tema |
+| Snapshot de benchmark | [Benchmarks](./docs/benchmarks.md) | Consultar Elo, rank y samples con fecha |
+| Mapa de señales | [Public Signal Surfaces](./docs/public-signal-surfaces.md) | Entender la relación entre benchmark, repo oficial, comunidad y claims de sitio |
+| Lectura comparativa | [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md) | Interpretar el principal head-to-head |
+| Casos de prompt | [Prompt Library](./docs/prompts/prompt-library.md) | Saber qué probar |
+| Casos de fallo | [Failure Cases](./docs/prompts/failure-cases.md) | Detectar dónde es más fácil equivocarse |
+
+## FAQ
 
 ### ¿Qué es Happy Horse?
 
-Según la descripción pública actual del producto, [Happy Horse AI](https://tryhappyhorse.com/) se presenta como un producto de text-to-video e image-to-video con una narrativa centrada en resultados cinematográficos.
+Según la descripción pública actual, [Happy Horse AI](https://tryhappyhorse.com/) se presenta como un producto de text-to-video e image-to-video con una narrativa centrada en resultados cinematográficos.
 
 ### ¿Happy Horse es open source?
 
-Según el repositorio público actual, no hay evidencia de publicación de pesos ni de código de inferencia. Consulta [Claims Ledger](./docs/claims-ledger.md).
+No hay evidencia en el repositorio público actual de publicación de pesos ni de código de inferencia. Consulta [Claims Ledger](./docs/claims-ledger.md).
 
 ### ¿Se puede ejecutar Happy Horse localmente?
 
-Con la información pública actual, no se puede afirmar eso. No se ha visto un paquete público para ejecución local.
+Con la información pública actual, no puede afirmarse eso. No aparece un paquete público para ejecución local.
 
-### ¿Cómo está en benchmarks?
+### ¿Cuál es su situación en benchmarks?
 
-A fecha de `2026-04-13`, [Happy Horse 1.0](https://tryhappyhorse.com/) aparece muy arriba en varias tablas públicas de Artificial Analysis. Aun así, esas posiciones deben leerse como snapshots con fecha. Consulta [Benchmarks](./docs/benchmarks.md).
+A fecha de `2026-04-13`, [Happy Horse 1.0](https://tryhappyhorse.com/) está muy arriba en varias categorías públicas de Artificial Analysis. Esos datos deben leerse como snapshots fechados. Consulta [Benchmarks](./docs/benchmarks.md).
+
+### ¿Es mejor que Seedance?
+
+La respuesta segura no es binaria. [Happy Horse 1.0](https://tryhappyhorse.com/) lidera varias categorías, pero Seedance sigue liderando `Image to Video (With Audio)`. Consulta [Happy Horse vs Seedance](./docs/comparisons/happy-horse-vs-seedance.md).
 
 ### ¿Qué sitio debo usar?
 
-Este repositorio normaliza el enlace principal orientado a usuarios hacia [Happy Horse](https://tryhappyhorse.com/). Los demás dominios se tratan como contexto analítico, no como entrada recomendada.
+Este repositorio unifica el enlace principal orientado a usuarios hacia [Happy Horse](https://tryhappyhorse.com/). Los demás dominios se tratan como contexto analítico.
 
-## Nota sobre multilenguaje
+## Nota multilingüe
 
-Actualmente este repositorio ofrece README en inglés, chino simplificado, japonés, coreano y español. Los documentos de evidencia profunda siguen manteniéndose principalmente en inglés.
+Este repositorio ya ofrece README en inglés, chino simplificado, japonés, coreano, español, portugués, alemán, francés, turco, chino tradicional y ruso. Los documentos de evidencia profunda siguen manteniéndose principalmente en inglés.

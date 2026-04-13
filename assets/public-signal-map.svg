@@ -1,0 +1,82 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020617" flood-opacity="0.4"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <text x="70" y="86" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="800">Happy Horse Public Signal Map</text>
+  <text x="70" y="122" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">How official repo, benchmarks, community repos, and site claims shape reader perception</text>
+
+  <rect x="72" y="180" width="250" height="150" rx="24" fill="url(#blue)" filter="url(#shadow)"/>
+  <text x="96" y="222" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Official Repo</text>
+  <text x="96" y="254" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">repo / README / exposed files</text>
+  <text x="96" y="290" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Best for:</text>
+  <text x="96" y="316" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500">what is actually public now</text>
+
+  <rect x="366" y="180" width="250" height="150" rx="24" fill="url(#cyan)" filter="url(#shadow)"/>
+  <text x="390" y="222" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Benchmarks</text>
+  <text x="390" y="254" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">leaderboards / Elo / samples</text>
+  <text x="390" y="290" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Best for:</text>
+  <text x="390" y="316" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500">dated performance snapshots</text>
+
+  <rect x="660" y="180" width="250" height="150" rx="24" fill="url(#green)" filter="url(#shadow)"/>
+  <text x="684" y="222" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Community Repos</text>
+  <text x="684" y="254" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">prompts / rumors / summaries</text>
+  <text x="684" y="290" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Best for:</text>
+  <text x="684" y="316" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500">narrative amplification</text>
+
+  <rect x="954" y="180" width="174" height="150" rx="24" fill="url(#amber)" filter="url(#shadow)"/>
+  <text x="978" y="222" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Site Claims</text>
+  <text x="978" y="254" fill="#FEF3C7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">domains / trial links</text>
+  <text x="978" y="290" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600">Best for:</text>
+  <text x="978" y="316" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500">access context</text>
+
+  <path d="M322 255 H355" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M616 255 H649" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M910 255 H943" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="290" y="410" width="620" height="180" rx="28" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="322" y="454" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800">Reader Interpretation Layer</text>
+  <text x="322" y="490" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500">What people finally ask after all four signal layers collide:</text>
+
+  <text x="322" y="536" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Is it open source?</text>
+  <text x="322" y="568" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Which site is real?</text>
+  <text x="322" y="600" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Is it better than Seedance?</text>
+  <text x="620" y="536" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Can I run it locally?</text>
+  <text x="620" y="568" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Does it support audio?</text>
+  <text x="620" y="600" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">• Which claims are safe to repeat?</text>
+
+  <path d="M197 330 C197 380 360 390 480 410" stroke="#64748B" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M491 330 C491 380 520 390 566 410" stroke="#64748B" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M785 330 C785 380 720 390 680 410" stroke="#64748B" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1041 330 C1041 380 860 390 770 410" stroke="#64748B" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="72" y="644" width="1056" height="64" rx="18" fill="#0B1220" stroke="#1E293B"/>
+  <text x="100" y="684" fill="#A5F3FC" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Safe rule:</text>
+  <text x="210" y="684" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500">When layers disagree, do not let the noisiest layer define the conclusion.</text>
+</svg>

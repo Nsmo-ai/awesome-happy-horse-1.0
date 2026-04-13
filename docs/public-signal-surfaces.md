@@ -4,6 +4,8 @@ Last checked: `2026-04-13`
 
 This page maps the main public signal layers around Happy Horse and explains how they relate to each other.
 
+![Public signal map](../assets/public-signal-map.svg)
+
 ## Signal Diagram
 
 ```mermaid
